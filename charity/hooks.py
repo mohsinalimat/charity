@@ -11,6 +11,8 @@ app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
+fixtures = ["Workflow", "Workflow State"] 
+
 # Includes in <head>
 # ------------------
 
@@ -118,4 +120,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "charity.event.get_events"
 # }
-
