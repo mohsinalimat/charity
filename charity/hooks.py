@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "charity"
-app_title = "charity management system"
+app_title = "Charity Management System"
 app_publisher = "Accurate Systems"
 app_description = " (The Charity management system) is a type of non-profit organization to provide a web site implementation of social services for the needy and low-income families. "
 app_icon = "octicon octicon-file-directory"
@@ -11,14 +11,18 @@ app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
-fixtures = ["Workflow", "Workflow State"] 
+# fixtures = ["Workflow", "Workflow State"]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/charity/css/charity.css"
-# app_include_js = "/assets/charity/js/charity.js"
+app_include_js = "/assets/js/charity.js"
+website_context = {
+    "favicon": "/assets/charity/images/sihat_logo.png",
+    "splash_image": "/assets/charity/images/sihat_splash.png"
+}
 
 # include js, css files in header of web template
 # web_include_css = "/assets/charity/css/charity.css"
