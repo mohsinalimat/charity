@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 frappe.ui.form.on("Request Form", {
     refresh: function(frm) {
         frm.add_custom_button(__("Coupon"), function() {
@@ -93,13 +93,4 @@ frappe.ui.form.on("Medical table", {
         frm.refresh_field("m_total");
 
     }
-=======
-// Copyright (c) 2017, Accurate Systems and contributors
-// For license information, please see license.txt
-
-frappe.ui.form.on('Request Form', {
-	refresh: function(frm) {
-
-	}
->>>>>>> 9537d92273754664da46bd98c9bfd94338312c9b
 });
