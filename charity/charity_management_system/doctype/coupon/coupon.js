@@ -3,6 +3,15 @@
 
 frappe.ui.form.on('Coupon', {
 	refresh: function(frm) {
-
+		if(frm.doc.__islocal){
+			var today_date = frappe.datetime.nowdate();
+			frm.set_value("h_date_of_coupon",getHijriDate(today_date));
+			frm.refresh_field("h_date_of_coupon");
+		}
+	},
+	date_of_coupon: function(frm) {
+		var date = frm.doc.date_of_coupon;
+		frm.set_value("h_date_of_coupon",getHijriDate(date));
+		frm.refresh_field("h_date_of_coupon");
 	}
 });
