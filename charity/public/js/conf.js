@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-frappe.provide('erpnext');
+// frappe.provide('erpnext');
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
@@ -11,3 +11,18 @@ $(document).bind('toolbar_setup', function() {
 });
 
 
+function getHijriDate(date) {
+	return HijriJS.toHijri(convertDate(date), "-").toString()
+}
+
+function convertDate(date) {
+  date = new Date(date);
+  var yyyy = date.getFullYear().toString();
+  var mm = (date.getMonth()+1).toString();
+  var dd  = date.getDate().toString();
+
+  var mmChars = mm.split('');
+  var ddChars = dd.split('');
+
+  return (ddChars[1]?dd:"0"+ddChars[0]) + '-' + (mmChars[1]?mm:"0"+mmChars[0]) + '-' + yyyy;
+}

@@ -22,12 +22,24 @@ frappe.ui.form.on("Request Form", {
         }
     },
     date_of_request:function(frm) {
-      frm.set_value("h_date_of_request",HijriJS.toHijri(frm.doc.date_of_request, "/"));
+      var date = frm.doc.date_of_request;
+      frm.set_value("h_date_of_request",getHijriDate(date));
       frm.refresh_field("h_date_of_request");
     },
     date_of_marriage_contract:function(frm){
-      frm.set_value("h_date_of_marriage_contract",HijriJS.toHijri(frm.doc.date_of_marriage_contract, "/"));
+      var date = frm.doc.date_of_marriage_contract;
+      frm.set_value("h_date_of_marriage_contract",getHijriDate(date));
       frm.refresh_field("h_date_of_marriage_contract");
+    },
+    date_of_research:function(frm){
+      var date = frm.doc.date_of_research;
+      frm.set_value("h_date_of_research",getHijriDate(date));
+      frm.refresh_field("h_date_of_research");
+    },
+    date_of_meeting:function(frm){
+      var date = frm.doc.date_of_meeting;
+      frm.set_value("h_date_of_meeting",getHijriDate(date));
+      frm.refresh_field("h_date_of_meeting");
     }
 });
 
