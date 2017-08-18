@@ -103,6 +103,26 @@ frappe.ui.form.on("Medical table", {
 
         frm.set_value("m_total", total);
         frm.refresh_field("m_total");
+    },
+    date_of_birth: function(frm) {
+      var date = frm.doc.date_of_birth;
+      frm.set_value("h_date_of_birth",getHijriDate(date));
+      frm.refresh_field("h_date_of_birth");
+    }
+});
 
+frappe.ui.form.on("Unincluded Dependent", {
+    date_of_birth: function(frm) {
+      var date = frm.doc.date_of_birth;
+      frm.set_value("h_date_of_birth",getHijriDate(date));
+      frm.refresh_field("h_date_of_birth");
+    }
+});
+
+frappe.ui.form.on("Family Members", {
+    date_of_birth: function(frm) {
+      var date = frm.doc.date_of_birth;
+      frm.set_value("h_date_of_birth",getHijriDate(date));
+      frm.refresh_field("h_date_of_birth");
     }
 });
