@@ -5,6 +5,13 @@
 from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
+from frappe.model.naming import make_autoname
+from umalqurra.hijri_date import HijriDate
 
 class RequestForm(Document):
-	pass
+    pass
+
+    def autoname(self):
+        um = HijriDate.today()
+        year = str(um.year)[2:-2]
+        self.name = make_autoname(self.naming_series + year)

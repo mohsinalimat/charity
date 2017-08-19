@@ -12,7 +12,12 @@ $(document).bind('toolbar_setup', function() {
 
 
 function getHijriDate(date) {
-	return HijriJS.toHijri(convertDate(date), "-").toString()
+	return HijriJS.toHijri(convertDate(date), "-").toString();
+}
+
+function getHijriYear(date) {
+	var year = HijriJS.toHijri(convertDate(date), "-");
+	return year.toFormat("yyyy").substring(2);
 }
 
 function convertDate(date) {
