@@ -6,7 +6,9 @@ frappe.ui.form.on('Cheque Specification', {
 		if(frm.doc.__islocal){
 			var today_date = frappe.datetime.nowdate();
 			frm.set_value("h_date_of_issue",getHijriDate(today_date));
+			frm.set_value("h_year",getHijriYear(today_date));
 			frm.refresh_field("h_date_of_coupon");
+			frm.refresh_field("h_year");
 		}
 	},
 	date_of_issue: function(frm) {

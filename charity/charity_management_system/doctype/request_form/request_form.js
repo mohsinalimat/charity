@@ -1,6 +1,13 @@
 
 frappe.ui.form.on("Request Form", {
     refresh: function(frm) {
+      if(frm.doc.__islocal){
+  			var today_date = frappe.datetime.nowdate();
+  			frm.set_value("h_date_of_request",getHijriDate(today_date));
+  			frm.set_value("h_year",getHijriYear(today_date));
+  			frm.refresh_field("h_date_of_request");
+  			frm.refresh_field("h_year");
+  		}
         frm.add_custom_button(__("Coupon"), function() {
             frappe.model.open_mapped_doc({
                 method: "charity.charity_management_system.tools.make_coupon",
