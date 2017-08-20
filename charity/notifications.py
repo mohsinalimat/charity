@@ -8,13 +8,13 @@ import frappe
 def get_notification_config():
     notifications = {
         "for_doctype": {
-            #"Request Form": {
-            #    "workflow_state":
-            #    ("in", ("Review Request", "Awaiting Researcher",
-            #            "Approved By Researcher", "Approved For Coupons Only",
-            #            "Approved for Cheques Only",
-            #            "Approved for Marked Fields", "Approved for Full Aid"))
-            #},
+            "Request Form": {
+                "workflow_state":
+                ("in", ("Review Request", "Awaiting Researcher",
+                        "Approved By Researcher", "Approved For Coupons Only",
+                        "Approved for Cheques Only",
+                        "Approved for Marked Fields", "Approved for Full Aid"))
+            },
             "Coupons": {
                 "status": ("in", ("Open", "Overdue"))
             },
