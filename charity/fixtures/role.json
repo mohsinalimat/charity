@@ -1,0 +1,252 @@
+[
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:15.324778", 
+  "name": "System Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "System Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:15.326636", 
+  "name": "All", 
+  "restrict_to_domain": null, 
+  "role_name": "All"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:15.340423", 
+  "name": "Administrator", 
+  "restrict_to_domain": null, 
+  "role_name": "Administrator"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:15.342381", 
+  "name": "Guest", 
+  "restrict_to_domain": null, 
+  "role_name": "Guest"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:16.148070", 
+  "name": "Website Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Website Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:16.971674", 
+  "name": "Knowledge Base Contributor", 
+  "restrict_to_domain": null, 
+  "role_name": "Knowledge Base Contributor"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:16.974405", 
+  "name": "Knowledge Base Editor", 
+  "restrict_to_domain": null, 
+  "role_name": "Knowledge Base Editor"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:17.077154", 
+  "name": "Blogger", 
+  "restrict_to_domain": null, 
+  "role_name": "Blogger"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.213596", 
+  "name": "Purchase Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Purchase Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.227651", 
+  "name": "Sales User", 
+  "restrict_to_domain": null, 
+  "role_name": "Sales User"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.229743", 
+  "name": "Maintenance User", 
+  "restrict_to_domain": null, 
+  "role_name": "Maintenance User"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.232527", 
+  "name": "Maintenance Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Maintenance Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.234348", 
+  "name": "Accounts User", 
+  "restrict_to_domain": null, 
+  "role_name": "Accounts User"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.236742", 
+  "name": "Sales Master Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Sales Master Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.238914", 
+  "name": "Sales Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Sales Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.240794", 
+  "name": "Accounts Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Accounts Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.242737", 
+  "name": "Purchase Master Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Purchase Master Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.245397", 
+  "name": "Purchase User", 
+  "restrict_to_domain": null, 
+  "role_name": "Purchase User"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:19.649279", 
+  "name": "Newsletter Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Newsletter Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-05-22 16:09:20.362172", 
+  "name": "Report Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Report Manager"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-06-13 15:49:32.565358", 
+  "name": "Research Committee", 
+  "restrict_to_domain": null, 
+  "role_name": "Research Committee"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-06-13 15:57:34.633377", 
+  "name": "Reception", 
+  "restrict_to_domain": null, 
+  "role_name": "Reception "
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-06-14 16:25:21.555846", 
+  "name": "Researcher", 
+  "restrict_to_domain": null, 
+  "role_name": "Researcher"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-06-17 17:13:48.173221", 
+  "name": "Client Relations", 
+  "restrict_to_domain": null, 
+  "role_name": "Client Relations"
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-10 00:43:44.535991", 
+  "name": "Super Email User", 
+  "restrict_to_domain": null, 
+  "role_name": "Super Email User"
+ }
+]

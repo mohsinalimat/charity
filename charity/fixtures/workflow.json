@@ -1,0 +1,181 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
+  "document_type": "Request Form", 
+  "is_active": 1, 
+  "modified": "2017-07-24 17:19:32.786483", 
+  "name": "Request Workflow", 
+  "override_status": 0, 
+  "states": [
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Review Request", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Researcher", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Awaiting Researcher", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Approved By Researcher", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Approved For Coupons Only", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Approved for Cheques Only", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Approved for Marked Fields", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Approved for Full Aid", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "1", 
+    "message": null, 
+    "state": "Aid Received", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "state": "Rejected", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "2", 
+    "message": null, 
+    "state": "Cancelled", 
+    "update_field": null, 
+    "update_value": null
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "Transfer to Researcher", 
+    "allowed": "Research Committee", 
+    "next_state": "Awaiting Researcher", 
+    "state": "Review Request"
+   }, 
+   {
+    "action": "Reject", 
+    "allowed": "Research Committee", 
+    "next_state": "Rejected", 
+    "state": "Review Request"
+   }, 
+   {
+    "action": "Approve", 
+    "allowed": "Researcher", 
+    "next_state": "Approved By Researcher", 
+    "state": "Awaiting Researcher"
+   }, 
+   {
+    "action": "Reject", 
+    "allowed": "Researcher", 
+    "next_state": "Rejected", 
+    "state": "Awaiting Researcher"
+   }, 
+   {
+    "action": "Approve for Full Aid", 
+    "allowed": "Research Committee", 
+    "next_state": "Approved for Full Aid", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Approve for Cheques", 
+    "allowed": "Research Committee", 
+    "next_state": "Approved for Cheques Only", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Approve for Coupons", 
+    "allowed": "Research Committee", 
+    "next_state": "Approved For Coupons Only", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Approve for Marked Fields", 
+    "allowed": "Research Committee", 
+    "next_state": "Approved for Marked Fields", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Reject", 
+    "allowed": "Research Committee", 
+    "next_state": "Rejected", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Full Aid Received", 
+    "allowed": "Client Relations", 
+    "next_state": "Aid Received", 
+    "state": "Approved for Full Aid"
+   }, 
+   {
+    "action": "Full Aid Received", 
+    "allowed": "Client Relations", 
+    "next_state": "Aid Received", 
+    "state": "Approved for Marked Fields"
+   }, 
+   {
+    "action": "Coupons Received", 
+    "allowed": "Client Relations", 
+    "next_state": "Aid Received", 
+    "state": "Approved For Coupons Only"
+   }, 
+   {
+    "action": "Cheques Received", 
+    "allowed": "Client Relations", 
+    "next_state": "Aid Received", 
+    "state": "Approved for Cheques Only"
+   }, 
+   {
+    "action": "Cancel", 
+    "allowed": "Research Committee", 
+    "next_state": "Cancelled", 
+    "state": "Aid Received"
+   }
+  ], 
+  "workflow_name": "Request Workflow", 
+  "workflow_state_field": "workflow_state"
+ }
+]
