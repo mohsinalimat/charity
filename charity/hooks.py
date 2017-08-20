@@ -11,7 +11,7 @@ app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
-# fixtures = ["Workflow", "Workflow State"]
+fixtures = ["Workflow", "Workflow State", "Role"]
 
 # Includes in <head>
 # ------------------
@@ -66,7 +66,7 @@ website_context = {
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "charity.notifications.get_notification_config"
+notification_config = "charity.notifications.get_notification_config"
 
 # Permissions
 # -----------
