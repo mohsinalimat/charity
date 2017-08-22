@@ -2,6 +2,15 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Coupon', {
+	onload:function(frm){
+		$(".btn-print-print").click(function () {
+				console.log("parseInt(frm.doc.copy) = ",parseInt(frm.doc.copy));
+			 var copy  = parseInt(frm.doc.copy)+1;
+			 console.log("copy = ",copy);
+			 frm.set_value("copy",copy);
+			 frm.save();
+		});
+	},
 	refresh: function(frm) {
 		if(frm.doc.__islocal){
 			var today_date = frappe.datetime.nowdate();
