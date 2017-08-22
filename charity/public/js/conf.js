@@ -49,12 +49,12 @@ function getAge(age){
         var month_age = Math.floor(day_age/30);
 
         day_age = day_age % 30;
-        console.log(isNaN(year_age) + " - " + isNaN(month_age) + " - " + isNaN(day_age));
+        //console.log(isNaN(year_age) + " - " + isNaN(month_age) + " - " + isNaN(day_age));
         if (isNaN(year_age) || isNaN(month_age) || isNaN(day_age)) {
             console.log("Invalid birthday - Please try again!");
         }
         else {
-            console.log("You are<br/><span id=\"age\">" + year_age + " years " + month_age + " months " + day_age + " days</span> old");
+            console.log("You are " + year_age + " years " + month_age + " months " + day_age + " days old");
 						return year_age;
 				}
     };
