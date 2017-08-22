@@ -2,7 +2,11 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Client', {
-	refresh: function(frm) {
+	onload: function(frm) {
+		console.log("frm.doc.date_of_birth",frm.doc.date_of_birth);
+		console.log("getAge(frm.doc.date_of_birth) =",getAge(frm.doc.date_of_birth));
+		frm.set_value("age",getAge(frm.doc.date_of_birth));
+		frm.refresh_field("age");
 
 	},
 	date_of_joining: function(frm) {
