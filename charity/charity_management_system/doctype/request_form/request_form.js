@@ -133,3 +133,28 @@ frappe.ui.form.on("Family Members", {
       frm.refresh_field("h_date_of_birth");
     }
 });
+
+frappe.ui.form.on("Coupon", {
+  recommendation_table_add: function(frm, cdt, cdn) {
+    var row = locals[cdt][cdn];
+    frappe.model.set_value(row.doctype, row.name, 'file_number', frm.doc.file_number);
+    var today_date = frappe.datetime.nowdate();
+    frappe.model.set_value(row.doctype, row.name, "h_date_of_coupon",getHijriDate(today_date));
+    frappe.model.set_value(row.doctype, row.name, "full_name",frm.doc.full_name);
+  },
+  date_of_birth: function(frm) {
+    var date = frm.doc.date_of_birth;
+    frm.set_value("h_date_of_birth",getHijriDate(date));
+    frm.refresh_field("h_date_of_birth");
+  }
+});
+
+frappe.ui.form.on("Cheque Specification", {
+  cheque_add: function(frm, cdt, cdn) {
+      var row = locals[cdt][cdn];
+    frappe.model.set_value(row.doctype, row.name, 'file_number', frm.doc.file_number);
+    var today_date = frappe.datetime.nowdate();
+    frappe.model.set_value(row.doctype, row.name, "h_date_of_issue",getHijriDate(today_date));
+    frappe.model.set_value(row.doctype, row.name, "name_of_client",frm.doc.full_name);
+  }
+});

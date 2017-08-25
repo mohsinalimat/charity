@@ -3,10 +3,12 @@
 
 frappe.ui.form.on('Client', {
 	onload: function(frm) {
-		console.log("frm.doc.date_of_birth",frm.doc.date_of_birth);
-		console.log("getAge(frm.doc.date_of_birth) =",getAge(frm.doc.date_of_birth));
-		frm.set_value("age",getAge(frm.doc.date_of_birth));
-		frm.refresh_field("age");
+		if(frm.doc.date_of_birth){
+			console.log("frm.doc.date_of_birth",frm.doc.date_of_birth);
+			console.log("getAge(frm.doc.date_of_birth) =",getAge(frm.doc.date_of_birth));
+			frm.set_value("age",getAge(frm.doc.date_of_birth));
+			frm.refresh_field("age");
+		}
 
 	},
 	date_of_joining: function(frm) {
@@ -25,5 +27,15 @@ frappe.ui.form.on('Client', {
 		frm.set_value("6_months_rent",frm.doc.yearly_rent /2);
 		frm.set_value("3_months_rent",frm.doc.yearly_rent /4);
 		frm.set_value("1_month_rent",frm.doc.yearly_rent /12);
+	}
+});
+
+frappe.ui.form.on('Client Debt', {
+	deadline: function(frm, cdt, cdn) {
+		var row = locals[cdt][cdn];
+		var date = row.deadline;
+		frappe.model.set_value(row.doctype, row.name, "h_deadline",getHijriDate(date));
+		// frm.set_value("h_deadline",getHijriDate(date));
+		frm.refresh_field("h_deadline");
 	}
 });
