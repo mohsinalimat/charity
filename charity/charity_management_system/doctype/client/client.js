@@ -9,10 +9,9 @@ frappe.ui.form.on('Client', {
 			frm.set_value("age",getAge(frm.doc.date_of_birth));
 			frm.refresh_field("age");
 		}
-		console.log("fffffff = ",getAge(frm.doc.date_of_joining));
-		frm.set_value("the_joining_period",getAge(frm.doc.date_of_joining));
-
-
+		frm.set_value("the_joining_period",frappe.datetime.get_day_diff(frappe.datetime.nowdate(), frm.doc.date_of_joining ));
+		frm.refresh_field("the_joining_period");
+		
 		frm.doc.family_tree.forEach(function(d) {
 			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
 		 });
