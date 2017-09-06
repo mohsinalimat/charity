@@ -47,6 +47,11 @@ frappe.ui.form.on("Request Form", {
       var date = frm.doc.date_of_meeting;
       frm.set_value("h_date_of_meeting",getHijriDate(date));
       frm.refresh_field("h_date_of_meeting");
+    },
+    research_committee_received_date:function(frm){
+      var date = frm.doc.research_committee_received_date;
+      frm.set_value("h_research_committee_received_date",getHijriDate(date));
+      frm.refresh_field("h_research_committee_received_date");
     }
 });
 
