@@ -11,7 +11,7 @@ frappe.ui.form.on('Client', {
 		}
 		frm.set_value("the_joining_period",frappe.datetime.get_day_diff(frappe.datetime.nowdate(), frm.doc.date_of_joining ));
 		frm.refresh_field("the_joining_period");
-		
+
 		frm.doc.family_tree.forEach(function(d) {
 			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
 		 });
@@ -79,4 +79,16 @@ frappe.ui.form.on('Client Debt', {
 		frm.refresh_field("h_deadline");
 
 	}
+});
+
+frappe.ui.form.on("Offered Help", {
+    amount: function(frm, cdt, cdn) {
+        var d = locals[cdt][cdn];
+        var total = 0;
+        frm.doc.offered_help.forEach(function(d) {
+            total += d.amount;
+        });
+        frm.set_value("total_amount", total);
+        frm.refresh_field("total_amount");
+    }
 });
