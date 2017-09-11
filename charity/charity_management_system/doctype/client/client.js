@@ -11,10 +11,11 @@ frappe.ui.form.on('Client', {
 		}
 		frm.set_value("the_joining_period",frappe.datetime.get_day_diff(frappe.datetime.nowdate(), frm.doc.date_of_joining ));
 		frm.refresh_field("the_joining_period");
-
+		if(frm.doc.family_tree){
 		frm.doc.family_tree.forEach(function(d) {
 			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
 		 });
+	 }
 
 		 frm.doc.family_members_not_included.forEach(function(d) {
  			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
