@@ -40,9 +40,9 @@ frappe.ui.form.on('Client', {
 
 	},
 	yearly_rent: function (frm) {
-		frm.set_value("6_months_rent",frm.doc.yearly_rent /2);
-		frm.set_value("3_months_rent",frm.doc.yearly_rent /4);
-		frm.set_value("1_month_rent",frm.doc.yearly_rent /12);
+		frm.set_value("six_months_rent",frm.doc.yearly_rent /2);
+		frm.set_value("three_months_rent",frm.doc.yearly_rent /4);
+		frm.set_value("one_month_rent",frm.doc.yearly_rent /12);
 	}
 });
 
