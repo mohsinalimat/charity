@@ -43,6 +43,37 @@ frappe.ui.form.on('Client', {
 		frm.set_value("six_months_rent",frm.doc.yearly_rent /2);
 		frm.set_value("three_months_rent",frm.doc.yearly_rent /4);
 		frm.set_value("one_month_rent",frm.doc.yearly_rent /12);
+	},
+	national_id:function(frm) {
+		// debugger;
+		if(frm.doc.national_id.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
+	},
+	mobile_no:function(frm) {
+		if(frm.doc.mobile_no.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
+	},
+	second_mobile_no:function(frm) {
+		if(frm.doc.second_mobile_no.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
+	},
+	thrid_mobile_no:function(frm) {
+		if(frm.doc.thrid_mobile_no.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
+	},
+	work_telephone_no:function(frm) {
+		if(frm.doc.work_telephone_no.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
 	}
 });
 
@@ -51,23 +82,39 @@ frappe.ui.form.on('Client', {
 frappe.ui.form.on('Family Members', {
 	date_of_birth: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
+		var date = row.date_of_birth;
 		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth",getHijriDate(date));
 		frm.refresh_field("h_date_of_birth");
 
 		frappe.model.set_value(row.doctype, row.name, "age", getAge(row.date_of_birth));
 		frm.refresh_field("age");
+	},
+	national_id:function(frm, cdt, cdn) {
+		var row = locals[cdt][cdn];
+		if(row.national_id.length < 10){
+			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			return false;
+		}
 	}
 });
 
 frappe.ui.form.on('Unincluded Dependent', {
 	date_of_birth: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
+		var date = row.date_of_birth;
 		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth",getHijriDate(date));
 		frm.refresh_field("h_date_of_birth");
 
 		frappe.model.set_value(row.doctype, row.name, "age", getAge(row.date_of_birth));
 		frm.refresh_field("age");
 
+},
+national_id:function(frm, cdt, cdn) {
+	var row = locals[cdt][cdn];
+	if(row.national_id.length < 10){
+		msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+		return false;
+	}
 }
 });
 
@@ -76,7 +123,6 @@ frappe.ui.form.on('Client Debt', {
 		var row = locals[cdt][cdn];
 		var date = row.deadline;
 		frappe.model.set_value(row.doctype, row.name, "h_deadline",getHijriDate(date));
-		// frm.set_value("h_deadline",getHijriDate(date));
 		frm.refresh_field("h_deadline");
 
 	}
@@ -92,4 +138,14 @@ frappe.ui.form.on("Offered Help", {
         frm.set_value("total_amount", total);
         frm.refresh_field("total_amount");
     }
+});
+
+frappe.ui.form.on('Dependent worker', {
+national_id:function(frm, cdt, cdn) {
+	var row = locals[cdt][cdn];
+	if(row.national_id.length < 10){
+		msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+		return false;
+	}
+}
 });
