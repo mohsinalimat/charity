@@ -16,10 +16,11 @@ frappe.ui.form.on('Client', {
 			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
 		 });
 	 }
-
+	 	 if(frm.doc.family_members_not_included){
 		 frm.doc.family_members_not_included.forEach(function(d) {
  			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
  		 });
+	 }
 		 //this check is not working
 		 if(frm.doc.__unsaved){
 			 frm.save();
