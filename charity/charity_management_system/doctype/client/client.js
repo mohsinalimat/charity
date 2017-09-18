@@ -149,3 +149,17 @@ national_id:function(frm, cdt, cdn) {
 	}
 }
 });
+
+frappe.ui.form.on("Job", {
+    salary: function(frm, cdt, cdn) {
+        var d = locals[cdt][cdn];
+        var total = 0;
+        frm.doc.jobs.forEach(function(d) {
+            total += d.salary;
+        });
+
+        frm.set_value("the_average_monthly_income", total);
+        frm.refresh_field("the_average_monthly_income");
+
+    }
+});
