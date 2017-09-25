@@ -96,6 +96,16 @@ frappe.ui.form.on('Family Members', {
 			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
+	},
+	family_tree_add:function(frm){
+		var total = 0;
+		frm.doc.family_tree.forEach(function(d) {
+				total += 1;
+		});
+
+		frm.set_value("total",total);
+		frm.refresh_field("total");
+
 	}
 });
 
