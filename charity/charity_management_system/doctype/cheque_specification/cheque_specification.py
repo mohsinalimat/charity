@@ -15,7 +15,7 @@ class ChequeSpecification(Document):
         year = str(um.year)[2:-2]
         self.name = make_autoname(self.naming_series + year)
 
-    def after_insert(self):
+    def befor_insert(self):
         self.parent = self.file_number
         self.parentfield = 'cheque'
         self.parenttype = 'client'
