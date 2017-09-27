@@ -8,23 +8,23 @@ from frappe.model.document import Document
 from frappe.model.naming import make_autoname
 from umalqurra.hijri_date import HijriDate
 
-class Coupon(Document):
-    pass
 
+class Coupon(Document):
     def autoname(self):
         um = HijriDate.today()
         year = str(um.year)[2:-2]
         self.name = make_autoname(self.naming_series + year)
 
-    def befor_insert(self):
+    def before_insert(self):
+        print "#####################################"
         self.parent = self.file_number
         self.parentfield = 'coupon'
         self.parenttype = 'client'
 
-    def befor_print(self):
-        self.copy =1;
+    def before_print(self):
+        self.copy = 1
         print "############## copy = {}".format(self.copy)
 
     def on_print(self):
-        self.copy =1;
+        self.copy = 1
         print "&&&&&&&&&&&&& copy = {}".format(self.copy)
