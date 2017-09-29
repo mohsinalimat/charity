@@ -94,7 +94,24 @@ frappe.ui.form.on('Client', {
 				frm.get_field("family_tree").grid.grid_rows[row.idx-1].remove();
 			}
 		});
-		 refresh_field("family_members_not_included")
+		 refresh_field("family_members_not_included");
+
+		 frappe.call({
+			 "method": "frappe.client.get",
+			 args: {
+				 doctype: "Amount For Families",
+
+				 filters: {
+					 "family_count": total
+				 },
+			 },
+			 callback: function(data) {
+				 if (data.message) {
+					 frm.set_value("amount_for_family", data.message.amount);
+					 frm.refresh_field("amount_for_family");
+				 }
+			 }
+		 });
 	},
 	move2:function(frm) {
 		$.each(frm.doc.family_members_not_included,function(index,row) {
@@ -115,7 +132,7 @@ frappe.ui.form.on('Client', {
 			}
 		});
 		 refresh_field("family_tree");
-		 
+
 		 var total = 0;
  		frm.doc.family_tree.forEach(function(d) {
  				total += 1;
@@ -123,6 +140,23 @@ frappe.ui.form.on('Client', {
 
  		frm.set_value("total",total);
  		frm.refresh_field("total");
+
+		frappe.call({
+			"method": "frappe.client.get",
+			args: {
+				doctype: "Amount For Families",
+
+				filters: {
+					"family_count": total
+				},
+			},
+			callback: function(data) {
+				if (data.message) {
+					frm.set_value("amount_for_family", data.message.amount);
+					frm.refresh_field("amount_for_family");
+				}
+			}
+		});
 	}
 });
 
@@ -154,6 +188,23 @@ frappe.ui.form.on('Family Members', {
 
 		frm.set_value("total",total);
 		frm.refresh_field("total");
+
+		frappe.call({
+			"method": "frappe.client.get",
+			args: {
+				doctype: "Amount For Families",
+
+				filters: {
+					"family_count": total
+				},
+			},
+			callback: function(data) {
+				if (data.message) {
+					frm.set_value("amount_for_family", data.message.amount);
+					frm.refresh_field("amount_for_family");
+				}
+			}
+		});
 	},
 	family_tree_remove:function(frm){
 		// frm.trigger("calculate_members");
@@ -164,7 +215,26 @@ frappe.ui.form.on('Family Members', {
 
 		frm.set_value("total",total);
 		frm.refresh_field("total");
-	},
+
+		frappe.call({
+			"method": "frappe.client.get",
+			args: {
+				doctype: "Amount For Families",
+
+				filters: {
+					"family_count": total
+				},
+			},
+			callback: function(data) {
+				if (data.message) {
+					frm.set_value("amount_for_family", data.message.amount);
+					frm.refresh_field("amount_for_family");
+				}
+			}
+		});
+
+
+	}
 	// calculate_members:function (frm){
 	//
 	// }
