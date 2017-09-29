@@ -102,7 +102,7 @@ frappe.ui.form.on('Client', {
 				 doctype: "Amount For Families",
 
 				 filters: {
-					 "family_count": total
+					 "family_count": frm.doc.total
 				 },
 			 },
 			 callback: function(data) {
@@ -299,8 +299,21 @@ frappe.ui.form.on("Job", {
             total += d.salary;
         });
 
-        frm.set_value("the_average_monthly_income", total);
-        frm.refresh_field("the_average_monthly_income");
+        frm.set_value("total_monthly_income", total);
+        frm.refresh_field("total_monthly_income");
 
-    }
+				frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+        frm.refresh_field("average_monthly_income");
+    },jobs_remove:function(frm){
+			var total = 0;
+			frm.doc.jobs.forEach(function(d) {
+					total += d.salary;
+			});
+
+			frm.set_value("total_monthly_income", total);
+			frm.refresh_field("total_monthly_income");
+
+			frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+			frm.refresh_field("average_monthly_income");
+		}
 });
