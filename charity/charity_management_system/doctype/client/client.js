@@ -75,6 +75,54 @@ frappe.ui.form.on('Client', {
 			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
+	},
+	move1:function(frm) {
+		$.each(frm.doc.family_tree,function(index,row) {
+			if(row.__checked){
+				var new_row = frm.add_child("family_members_not_included");
+                new_row.full_name = row.full_name;
+                new_row.date_of_birth = row.date_of_birth;
+                new_row.h_date_of_birth = row.h_date_of_birth;
+                new_row.place_of_birth = row.place_of_birth;
+								new_row.health_status = row.health_status;
+								new_row.age = row.age;
+								new_row.national_id = row.national_id;
+								new_row.relation_to_the_client = row.relation_to_the_client;
+								new_row.social_status = row.social_status;
+								new_row.education_level = row.education_level;
+								new_row.notes = row.notes;
+				frm.get_field("family_tree").grid.grid_rows[row.idx-1].remove();
+			}
+		});
+		 refresh_field("family_members_not_included")
+	},
+	move2:function(frm) {
+		$.each(frm.doc.family_members_not_included,function(index,row) {
+			if(row.__checked){
+				var new_row = frm.add_child("family_tree");
+								new_row.full_name = row.full_name;
+								new_row.date_of_birth = row.date_of_birth;
+								new_row.h_date_of_birth = row.h_date_of_birth;
+								new_row.place_of_birth = row.place_of_birth;
+								new_row.health_status = row.health_status;
+								new_row.age = row.age;
+								new_row.national_id = row.national_id;
+								new_row.relation_to_the_client = row.relation_to_the_client;
+								new_row.social_status = row.social_status;
+								new_row.education_level = row.education_level;
+								new_row.notes = row.notes;
+				frm.get_field("family_members_not_included").grid.grid_rows[row.idx-1].remove();
+			}
+		});
+		 refresh_field("family_tree");
+		 
+		 var total = 0;
+ 		frm.doc.family_tree.forEach(function(d) {
+ 				total += 1;
+ 		});
+
+ 		frm.set_value("total",total);
+ 		frm.refresh_field("total");
 	}
 });
 
@@ -98,6 +146,7 @@ frappe.ui.form.on('Family Members', {
 		}
 	},
 	family_tree_add:function(frm){
+		// frm.trigger("calculate_members");
 		var total = 0;
 		frm.doc.family_tree.forEach(function(d) {
 				total += 1;
@@ -105,8 +154,21 @@ frappe.ui.form.on('Family Members', {
 
 		frm.set_value("total",total);
 		frm.refresh_field("total");
+	},
+	family_tree_remove:function(frm){
+		// frm.trigger("calculate_members");
+		var total = 0;
+		frm.doc.family_tree.forEach(function(d) {
+				total += 1;
+		});
 
-	}
+		frm.set_value("total",total);
+		frm.refresh_field("total");
+	},
+	// calculate_members:function (frm){
+	//
+	// }
+
 });
 
 frappe.ui.form.on('Unincluded Dependent', {
@@ -141,7 +203,6 @@ frappe.ui.form.on('Client Debt', {
 
 frappe.ui.form.on("Offered Help", {
     amount: function(frm, cdt, cdn) {
-        var d = locals[cdt][cdn];
         var total = 0;
         frm.doc.offered_help.forEach(function(d) {
             total += d.amount;
@@ -163,7 +224,6 @@ national_id:function(frm, cdt, cdn) {
 
 frappe.ui.form.on("Job", {
     salary: function(frm, cdt, cdn) {
-        var d = locals[cdt][cdn];
         var total = 0;
         frm.doc.jobs.forEach(function(d) {
             total += d.salary;
