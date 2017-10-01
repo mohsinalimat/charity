@@ -2433,7 +2433,7 @@
    "precision": "", 
    "print_hide": 0, 
    "print_hide_if_no_value": 0, 
-   "read_only": 1, 
+   "read_only": 0, 
    "remember_last_selected_value": 0, 
    "report_hide": 0, 
    "reqd": 0, 
@@ -2725,7 +2725,11 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
+<<<<<<< HEAD
  "modified": "2017-09-29 18:22:30.381712", 
+=======
+ "modified": "2017-09-26 17:23:18.661725", 
+>>>>>>> 7c1779ae5a0d04dd991215c76c9fdb7845ce1582
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "Client", 
