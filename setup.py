@@ -17,7 +17,7 @@ requirements = parse_requirements("requirements.txt", session="")
 setup(
     name='charity',
     version=version,
-    description=' (The Charity management system) is a type of non-profit organization',
+    description='The Charity management system is a type of non-profit organization',
     author='Accurate Systems',
     author_email='info@accuratesystems.com.sa',
     packages=find_packages(),

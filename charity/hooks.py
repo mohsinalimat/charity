@@ -5,7 +5,7 @@ from . import __version__ as app_version
 app_name = "charity"
 app_title = "Charity Management System"
 app_publisher = "Accurate Systems"
-app_description = " (The Charity management system) is a type of non-profit organization"
+app_description = "The Charity management system is a type of non-profit organization"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
