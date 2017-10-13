@@ -4,10 +4,319 @@
   "disabled": 0, 
   "docstatus": 0, 
   "doctype": "Role", 
+  "modified": "2017-08-21 00:22:24.794990", 
+  "name": "Auditor", 
+  "restrict_to_domain": null, 
+  "role_name": "Auditor", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:28.567483", 
+  "name": "Employee", 
+  "restrict_to_domain": null, 
+  "role_name": "Employee", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:28.690650", 
+  "name": "Stock User", 
+  "restrict_to_domain": null, 
+  "role_name": "Stock User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:29.875532", 
+  "name": "Stock Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Stock Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 1, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-20 21:59:02.353235", 
+  "name": "Manufacturing Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Manufacturing Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:32.449889", 
+  "name": "Supplier", 
+  "restrict_to_domain": null, 
+  "role_name": "Supplier", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:35.446339", 
+  "name": "Projects User", 
+  "restrict_to_domain": null, 
+  "role_name": "Projects User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:35.525010", 
+  "name": "Projects Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Projects Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:36.250971", 
+  "name": "HR User", 
+  "restrict_to_domain": null, 
+  "role_name": "HR User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 1, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-20 21:59:02.312038", 
+  "name": "Manufacturing User", 
+  "restrict_to_domain": null, 
+  "role_name": "Manufacturing User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:39.123677", 
+  "name": "Item Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Item Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:41.437848", 
+  "name": "HR Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "HR Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:42.332728", 
+  "name": "Expense Approver", 
+  "restrict_to_domain": null, 
+  "role_name": "Expense Approver", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:44.985985", 
+  "name": "Leave Approver", 
+  "restrict_to_domain": null, 
+  "role_name": "Leave Approver", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 1, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-20 21:59:02.392818", 
+  "name": "Academics User", 
+  "restrict_to_domain": null, 
+  "role_name": "Academics User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:45.963428", 
+  "name": "Fleet Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Fleet Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:51.955113", 
+  "name": "Quality Manager", 
+  "restrict_to_domain": null, 
+  "role_name": "Quality Manager", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:22:56.301045", 
+  "name": "Support Team", 
+  "restrict_to_domain": null, 
+  "role_name": "Support Team", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 1, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-20 21:59:02.444718", 
+  "name": "Instructor", 
+  "restrict_to_domain": null, 
+  "role_name": "Instructor", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 0, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:23:08.142060", 
+  "name": "Customer", 
+  "restrict_to_domain": null, 
+  "role_name": "Customer", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 0, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:23:08.267622", 
+  "name": "Student", 
+  "restrict_to_domain": null, 
+  "role_name": "Student", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-08-21 00:23:09.722533", 
+  "name": "Analytics", 
+  "restrict_to_domain": null, 
+  "role_name": "Analytics", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:25.300499", 
+  "name": "Physician", 
+  "restrict_to_domain": null, 
+  "role_name": "Physician", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:25.594801", 
+  "name": "Healthcare Administrator", 
+  "restrict_to_domain": null, 
+  "role_name": "Healthcare Administrator", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:26.319509", 
+  "name": "Laboratory User", 
+  "restrict_to_domain": null, 
+  "role_name": "Laboratory User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:27.034108", 
+  "name": "Nursing User", 
+  "restrict_to_domain": null, 
+  "role_name": "Nursing User", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:27.826663", 
+  "name": "LabTest Approver", 
+  "restrict_to_domain": null, 
+  "role_name": "LabTest Approver", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 0, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
+  "modified": "2017-09-29 03:11:37.942882", 
+  "name": "Patient", 
+  "restrict_to_domain": null, 
+  "role_name": "Patient", 
+  "two_factor_auth": 0
+ }, 
+ {
+  "desk_access": 1, 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Role", 
   "modified": "2017-05-22 16:09:15.324778", 
   "name": "System Manager", 
   "restrict_to_domain": null, 
-  "role_name": "System Manager"
+  "role_name": "System Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -17,7 +326,8 @@
   "modified": "2017-05-22 16:09:15.326636", 
   "name": "All", 
   "restrict_to_domain": null, 
-  "role_name": "All"
+  "role_name": "All", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -27,7 +337,8 @@
   "modified": "2017-05-22 16:09:15.340423", 
   "name": "Administrator", 
   "restrict_to_domain": null, 
-  "role_name": "Administrator"
+  "role_name": "Administrator", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -37,7 +348,8 @@
   "modified": "2017-05-22 16:09:15.342381", 
   "name": "Guest", 
   "restrict_to_domain": null, 
-  "role_name": "Guest"
+  "role_name": "Guest", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -47,7 +359,8 @@
   "modified": "2017-05-22 16:09:16.148070", 
   "name": "Website Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Website Manager"
+  "role_name": "Website Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -57,7 +370,8 @@
   "modified": "2017-05-22 16:09:16.971674", 
   "name": "Knowledge Base Contributor", 
   "restrict_to_domain": null, 
-  "role_name": "Knowledge Base Contributor"
+  "role_name": "Knowledge Base Contributor", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -67,7 +381,8 @@
   "modified": "2017-05-22 16:09:16.974405", 
   "name": "Knowledge Base Editor", 
   "restrict_to_domain": null, 
-  "role_name": "Knowledge Base Editor"
+  "role_name": "Knowledge Base Editor", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -77,7 +392,8 @@
   "modified": "2017-05-22 16:09:17.077154", 
   "name": "Blogger", 
   "restrict_to_domain": null, 
-  "role_name": "Blogger"
+  "role_name": "Blogger", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -87,7 +403,8 @@
   "modified": "2017-05-22 16:09:19.213596", 
   "name": "Purchase Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Purchase Manager"
+  "role_name": "Purchase Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -97,7 +414,8 @@
   "modified": "2017-05-22 16:09:19.227651", 
   "name": "Sales User", 
   "restrict_to_domain": null, 
-  "role_name": "Sales User"
+  "role_name": "Sales User", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -107,7 +425,8 @@
   "modified": "2017-05-22 16:09:19.229743", 
   "name": "Maintenance User", 
   "restrict_to_domain": null, 
-  "role_name": "Maintenance User"
+  "role_name": "Maintenance User", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -117,7 +436,8 @@
   "modified": "2017-05-22 16:09:19.232527", 
   "name": "Maintenance Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Maintenance Manager"
+  "role_name": "Maintenance Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -127,7 +447,8 @@
   "modified": "2017-05-22 16:09:19.234348", 
   "name": "Accounts User", 
   "restrict_to_domain": null, 
-  "role_name": "Accounts User"
+  "role_name": "Accounts User", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -137,7 +458,8 @@
   "modified": "2017-05-22 16:09:19.236742", 
   "name": "Sales Master Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Sales Master Manager"
+  "role_name": "Sales Master Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -147,7 +469,8 @@
   "modified": "2017-05-22 16:09:19.238914", 
   "name": "Sales Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Sales Manager"
+  "role_name": "Sales Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -157,7 +480,8 @@
   "modified": "2017-05-22 16:09:19.240794", 
   "name": "Accounts Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Accounts Manager"
+  "role_name": "Accounts Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -167,7 +491,8 @@
   "modified": "2017-05-22 16:09:19.242737", 
   "name": "Purchase Master Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Purchase Master Manager"
+  "role_name": "Purchase Master Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -177,7 +502,8 @@
   "modified": "2017-05-22 16:09:19.245397", 
   "name": "Purchase User", 
   "restrict_to_domain": null, 
-  "role_name": "Purchase User"
+  "role_name": "Purchase User", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -187,7 +513,8 @@
   "modified": "2017-05-22 16:09:19.649279", 
   "name": "Newsletter Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Newsletter Manager"
+  "role_name": "Newsletter Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -197,7 +524,8 @@
   "modified": "2017-05-22 16:09:20.362172", 
   "name": "Report Manager", 
   "restrict_to_domain": null, 
-  "role_name": "Report Manager"
+  "role_name": "Report Manager", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -207,7 +535,8 @@
   "modified": "2017-06-13 15:49:32.565358", 
   "name": "Research Committee", 
   "restrict_to_domain": null, 
-  "role_name": "Research Committee"
+  "role_name": "Research Committee", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -217,7 +546,8 @@
   "modified": "2017-06-13 15:57:34.633377", 
   "name": "Reception", 
   "restrict_to_domain": null, 
-  "role_name": "Reception "
+  "role_name": "Reception ", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -227,7 +557,8 @@
   "modified": "2017-06-14 16:25:21.555846", 
   "name": "Researcher", 
   "restrict_to_domain": null, 
-  "role_name": "Researcher"
+  "role_name": "Researcher", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -237,7 +568,8 @@
   "modified": "2017-06-17 17:13:48.173221", 
   "name": "Client Relations", 
   "restrict_to_domain": null, 
-  "role_name": "Client Relations"
+  "role_name": "Client Relations", 
+  "two_factor_auth": 0
  }, 
  {
   "desk_access": 1, 
@@ -247,6 +579,7 @@
   "modified": "2017-08-10 00:43:44.535991", 
   "name": "Super Email User", 
   "restrict_to_domain": null, 
-  "role_name": "Super Email User"
+  "role_name": "Super Email User", 
+  "two_factor_auth": 0
  }
 ]

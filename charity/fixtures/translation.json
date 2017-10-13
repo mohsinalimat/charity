@@ -1,0 +1,1775 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:46:14.075473", 
+  "name": "2234b36716", 
+  "source_name": "Important Note", 
+  "target_name": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u0647\u0627\u0645\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:48:11.092095", 
+  "name": "adebd2aa8e", 
+  "source_name": "Age", 
+  "target_name": "\u0627\u0644\u0639\u0645\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:48:53.352681", 
+  "name": "0247d26950", 
+  "source_name": "Place of Birth", 
+  "target_name": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0645\u064a\u0644\u0627\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:49:17.781795", 
+  "name": "0f6730a7b8", 
+  "source_name": "City", 
+  "target_name": "\u0627\u0644\u0645\u062f\u064a\u0646\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:49:41.195580", 
+  "name": "e7da9140a8", 
+  "source_name": "Joining Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0627\u0644\u062a\u062d\u0627\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:51:41.939681", 
+  "name": "31dc6da5a3", 
+  "source_name": "Education Status", 
+  "target_name": "\u062d\u0627\u0644\u0629 \u0627\u0644\u062a\u0639\u0644\u064a\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:52:17.820248", 
+  "name": "c3db7917bd", 
+  "source_name": "2nd Mobile No", 
+  "target_name": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644 2"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:52:50.753861", 
+  "name": "840c78d4c4", 
+  "source_name": "3rd Mobile No", 
+  "target_name": "\u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0644 3"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:53:23.668308", 
+  "name": "3954ba755e", 
+  "source_name": "National ID", 
+  "target_name": "\u0627\u0644\u0647\u0648\u064a\u0629 \u0627\u0644\u0648\u0637\u0646\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:54:05.698907", 
+  "name": "c582174706", 
+  "source_name": "Neighborhood", 
+  "target_name": "\u0627\u0644\u062d\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:55:26.808244", 
+  "name": "a165591e27", 
+  "source_name": "Date of Joining", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:55:55.631689", 
+  "name": "bc8b8b4ae7", 
+  "source_name": "Arabic Date of Joining", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u0646\u0636\u0645\u0627\u0645 \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:56:29.099179", 
+  "name": "13ff62af3b", 
+  "source_name": "Health Status", 
+  "target_name": "\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0635\u062d\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:57:13.069801", 
+  "name": "e17d72e130", 
+  "source_name": "House Telephone No", 
+  "target_name": "\u0631\u0642\u0645 \u0647\u0627\u062a\u0641 \u0627\u0644\u0628\u064a\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:57:57.896249", 
+  "name": "10b79473c5", 
+  "source_name": "Work Place", 
+  "target_name": "\u0645\u0643\u0627\u0646 \u0627\u0644\u0639\u0645\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 12:58:38.227069", 
+  "name": "402ccf5210", 
+  "source_name": "Arabic Date of Birth", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0645\u064a\u0644\u0627\u062f \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:01:09.340693", 
+  "name": "47ab9f7b3c", 
+  "source_name": "The Joining Period", 
+  "target_name": "\u0645\u062f\u0629 \u0627\u0644\u0625\u0644\u062a\u062d\u0627\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:01:58.437861", 
+  "name": "127680ed8d", 
+  "source_name": "Work Telephone No", 
+  "target_name": "\u0631\u0642\u0645 \u0647\u0627\u062a\u0641 \u0627\u0644\u0639\u0645\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:03:41.981828", 
+  "name": "6b76a51a12", 
+  "source_name": "Family Members Under the Client Care", 
+  "target_name": "\u0623\u0633\u0631\u0629 \u0637\u0627\u0644\u0628 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0630\u064a\u0646 \u064a\u0639\u064a\u0644\u0647\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:05:18.561426", 
+  "name": "552394f576", 
+  "source_name": "Family Members who are not Included", 
+  "target_name": "\u0623\u0641\u0631\u0627\u062f \u0627\u0644\u0623\u0633\u0631\u0629 \u0627\u0644\u063a\u064a\u0631 \u0645\u0634\u0645\u0648\u0644\u064a\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:07:13.909974", 
+  "name": "6fb4a5747f", 
+  "source_name": "SOCIAL STATUS", 
+  "target_name": "\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:08:00.860162", 
+  "name": "119b355db1", 
+  "source_name": "Total", 
+  "target_name": "\u0627\u0644\u0645\u062c\u0645\u0648\u0639"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:08:37.563162", 
+  "name": "8cd91156ed", 
+  "source_name": "FAMILY STATUS & Attachment", 
+  "target_name": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0639\u0627\u0626\u0644\u064a \u0648\u0627\u0644\u0645\u0631\u0641\u0642\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:09:17.736310", 
+  "name": "c485ed73b9", 
+  "source_name": "Family Status", 
+  "target_name": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0639\u0627\u0626\u0644\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:10:26.698159", 
+  "name": "5b2cd83d62", 
+  "source_name": "Reason If Broken", 
+  "target_name": "\u0633\u0628\u0628 \u0627\u0644\u0625\u0646\u0641\u0635\u0627\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:11:16.323032", 
+  "name": "9f1a8ab09c", 
+  "source_name": "Healthy and Together", 
+  "target_name": "\u0635\u062d\u064a\u0629 \u0648\u0645\u0631\u062a\u0628\u0637\u0629 \u0645\u0639\u0627"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:12:35.677977", 
+  "name": "e229759867", 
+  "source_name": "Broken", 
+  "target_name": "\u0645\u0646\u0641\u0635\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:13:29.955005", 
+  "name": "dc698c7b1e", 
+  "source_name": "Orphans", 
+  "target_name": "\u0623\u064a\u062a\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:14:04.118502", 
+  "name": "e2a6d1c395", 
+  "source_name": "In Need", 
+  "target_name": "\u0645\u062d\u062a\u0627\u062c\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:14:56.780085", 
+  "name": "e60e85a68d", 
+  "source_name": "DEBTS", 
+  "target_name": "\u0627\u0644\u062f\u064a\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:15:51.563936", 
+  "name": "7b578d9397", 
+  "source_name": "FINANCIAL STATUS", 
+  "target_name": "\u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0645\u0627\u0644\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:16:23.324903", 
+  "name": "206d044152", 
+  "source_name": "Summary of Financial Status", 
+  "target_name": "\u0645\u0644\u062e\u0635 \u0627\u0644\u0648\u0636\u0639 \u0627\u0644\u0645\u0627\u0644\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:17:12.791914", 
+  "name": "5f473f0344", 
+  "source_name": "The Total monthly Income", 
+  "target_name": "\u0625\u062c\u0645\u0627\u0644\u064a \u0627\u0644\u062f\u062e\u0644 \u0627\u0644\u0634\u0647\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:18:04.060200", 
+  "name": "8faa8427f9", 
+  "source_name": "Family Members who work", 
+  "target_name": "\u0623\u0641\u0631\u0627\u062f \u0627\u0644\u0623\u0633\u0631\u0629 \u0627\u0644\u0630\u064a\u0646 \u064a\u0639\u0645\u0644\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 13:19:33.071029", 
+  "name": "e941e444a0", 
+  "source_name": "PROPERTIES", 
+  "target_name": "\u0627\u0644\u0645\u0645\u062a\u0644\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:23:36.945819", 
+  "name": "3c4f54df0a", 
+  "source_name": "HOUSEHOLD", 
+  "target_name": "\u0627\u0644\u0645\u0633\u0643\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:24:19.508687", 
+  "name": "6d47a9e459", 
+  "source_name": "Type of Ownership on the Household", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0644\u0643\u064a\u0629 \u0639\u0644\u0649 \u0627\u0644\u0645\u0633\u0643\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:24:41.811822", 
+  "name": "4fabc90445", 
+  "source_name": "Resident Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0642\u064a\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:25:12.206629", 
+  "name": "02399aff4f", 
+  "source_name": "Shared Resident Name", 
+  "target_name": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0645\u0642\u064a\u0645 \u0627\u0644\u0645\u0634\u062a\u0631\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:25:55.064915", 
+  "name": "175ad786a9", 
+  "source_name": "1 Year Rent", 
+  "target_name": "\u0642\u064a\u0645\u0629 \u0625\u064a\u062c\u0627\u0631 \u0627\u0644\u0633\u0646\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:26:36.586488", 
+  "name": "b172bb89ec", 
+  "source_name": "3 Months Rent", 
+  "target_name": "\u0642\u064a\u0645\u0629 \u0625\u064a\u062c\u0627\u0631 3 \u0634\u0647\u0648\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:27:03.421854", 
+  "name": "bc32a216ee", 
+  "source_name": "Type of Household", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0633\u0643\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:27:31.344872", 
+  "name": "be790d7fac", 
+  "source_name": "Mobile No of Resident", 
+  "target_name": "\u0631\u0642\u0645 \u062c\u0648\u0627\u0644 \u0627\u0644\u0645\u0642\u064a\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:27:52.873110", 
+  "name": "2e3f0bd57e", 
+  "source_name": "Mobile No of Shared Resident", 
+  "target_name": "\u0631\u0642\u0645 \u062c\u0648\u0627\u0644 \u0627\u0644\u0645\u0642\u064a\u0645 \u0627\u0644\u0645\u0634\u062a\u0631\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:28:37.982936", 
+  "name": "3b5c6def84", 
+  "source_name": "6 Months Rent", 
+  "target_name": "\u0642\u064a\u0645\u0629 \u0625\u064a\u062c\u0627\u0631 6 \u0634\u0647\u0648\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:29:13.938630", 
+  "name": "373f5022e2", 
+  "source_name": "1 Month Rent", 
+  "target_name": "\u0642\u064a\u0645\u0629 \u0625\u064a\u062c\u0627\u0631 \u0627\u0644\u0634\u0647\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:30:05.070567", 
+  "name": "1010376e82", 
+  "source_name": "No of Levels", 
+  "target_name": "\u0639\u062f\u062f \u0627\u0644\u0637\u0648\u0627\u0628\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:31:27.638733", 
+  "name": "51df8f4300", 
+  "source_name": "No of Rooms", 
+  "target_name": "\u0639\u062f\u062f \u063a\u0631\u0641 \u0627\u0644\u0646\u0648\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:30:41.946048", 
+  "name": "e4f19da9d0", 
+  "source_name": "No of Restrooms", 
+  "target_name": "\u0639\u062f\u062f \u062f\u0648\u0631\u0627\u062a \u0627\u0644\u0645\u064a\u0627\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:31:11.705933", 
+  "name": "a5c8026ac1", 
+  "source_name": "No of other Spaces", 
+  "target_name": "\u0639\u062f\u062f \u0627\u0644\u063a\u0631\u0641 \u0627\u0644\u0645\u062a\u0628\u0642\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:32:14.096802", 
+  "name": "412793a8d8", 
+  "source_name": "People Who live in the household and Their Status", 
+  "target_name": "\u0627\u0644\u0646\u0627\u0633 \u0627\u0644\u0630\u064a\u0646 \u064a\u0639\u064a\u0634\u0648\u0646 \u0641\u064a \u0627\u0644\u0645\u0646\u0632\u0644 \u0648\u0648\u0636\u0639\u0647\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:33:56.246629", 
+  "name": "58c3b393c1", 
+  "source_name": "GENERAL KNOWLEDGE", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0629 \u0639\u0627\u0645\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:38:38.850099", 
+  "name": "8277b7ac26", 
+  "source_name": "Request Number", 
+  "target_name": "\u0631\u0642\u0645 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:38:54.033914", 
+  "name": "13f9e1ddb0", 
+  "source_name": "File Number", 
+  "target_name": "\u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:39:13.244420", 
+  "name": "73e8bc97dc", 
+  "source_name": "Client Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:39:40.950097", 
+  "name": "995013c4d2", 
+  "source_name": "Date of Request", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:40:28.686954", 
+  "name": "8493f286bd", 
+  "source_name": "Arabic Date of Request", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0637\u0644\u0628 \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:42:38.389836", 
+  "name": "91449f053b", 
+  "source_name": "Request to aid in Marriage", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0641\u064a \u0627\u0644\u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:43:19.661764", 
+  "name": "329a3d1a32", 
+  "source_name": "Date of Marriage Contract", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0639\u0642\u062f \u0627\u0644\u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:43:43.076752", 
+  "name": "7ac8282f56", 
+  "source_name": "Arabic Date of Marriage Contract", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0639\u0642\u062f \u0627\u0644\u0632\u0648\u0627\u062c \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:44:35.022598", 
+  "name": "2657272ef9", 
+  "source_name": "Current Available Amount", 
+  "target_name": "\u0627\u0644\u0645\u0628\u0644\u063a \u0627\u0644\u062d\u0627\u0644\u064a \u0627\u0644\u0645\u062a\u0648\u0641\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:45:03.440494", 
+  "name": "43785c4e66", 
+  "source_name": "Amount of Dowry", 
+  "target_name": "\u0643\u0645\u064a\u0629 \u0627\u0644\u0645\u0647\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:45:26.877961", 
+  "name": "c1e6df1065", 
+  "source_name": "Requested Amount", 
+  "target_name": "\u0627\u0644\u0643\u0645\u064a\u0629 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:46:07.462155", 
+  "name": "bbc69bb807", 
+  "source_name": "Devices\\Appliances\\Furniture", 
+  "target_name": "\u0627\u0644\u0623\u062c\u0647\u0632\u0629 \\ \u0627\u0644\u0623\u062b\u0627\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:47:08.107544", 
+  "name": "9301e45c57", 
+  "source_name": "School Expenses", 
+  "target_name": "\u0627\u0644\u0646\u0641\u0642\u0627\u062a \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:47:46.306597", 
+  "name": "9dc4b8edaa", 
+  "source_name": "Financial Expenses", 
+  "target_name": "\u0627\u0644\u0646\u0641\u0642\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:49:06.333414", 
+  "name": "dbf1689e0f", 
+  "source_name": "Medical Condition", 
+  "target_name": "\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0637\u0628\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:49:41.425102", 
+  "name": "24f3952ea6", 
+  "source_name": "Total Amount", 
+  "target_name": "\u0627\u0644\u0645\u0628\u0644\u063a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:50:14.441488", 
+  "name": "8ba3910fcd", 
+  "source_name": "Date of Commencing Research", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0628\u062f\u0621 \u0627\u0644\u0628\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:52:40.253883", 
+  "name": "1d0f212af3", 
+  "source_name": "Arabic Date of Commencing Research", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0628\u062f\u0621 \u0627\u0644\u0628\u062d\u062b \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:53:41.632589", 
+  "name": "324d4a8bcd", 
+  "source_name": "Date of Meeting", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:54:24.069749", 
+  "name": "280e452b31", 
+  "source_name": "Arabic Date of Meeting", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639 \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:56:10.303558", 
+  "name": "9cdb5c247f", 
+  "source_name": "Recommendation", 
+  "target_name": "\u0627\u0644\u062a\u0648\u0635\u064a\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:56:36.149718", 
+  "name": "6151ac767b", 
+  "source_name": "Final Decision", 
+  "target_name": "\u0627\u0644\u0642\u0631\u0627\u0631 \u0627\u0644\u0646\u0647\u0627\u0626\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:57:20.787687", 
+  "name": "d0f0239703", 
+  "source_name": "COUPONS", 
+  "target_name": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 14:58:13.448010", 
+  "name": "ca8cace5ab", 
+  "source_name": "CHEQUES", 
+  "target_name": "\u0627\u0644\u0634\u064a\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:04:32.026527", 
+  "name": "876945b450", 
+  "source_name": "Date of Coupon", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0643\u0648\u0628\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:04:48.297295", 
+  "name": "3cc507283a", 
+  "source_name": "Arabic Date of Coupon", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0643\u0648\u0628\u0648\u0646 \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:06:11.530781", 
+  "name": "050db49c8b", 
+  "source_name": "Packages", 
+  "target_name": "\u0627\u0644\u0623\u063a\u0631\u0627\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:06:27.969830", 
+  "name": "6e048b16ac", 
+  "source_name": "Item", 
+  "target_name": "\u0627\u0644\u063a\u0631\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:07:23.983440", 
+  "name": "beb9513fe4", 
+  "source_name": "Approved", 
+  "target_name": "\u062a\u0645\u062a \u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:07:51.387664", 
+  "name": "ef7aff5ff0", 
+  "source_name": "Delivered", 
+  "target_name": "\u062a\u0645 \u0627\u0644\u0625\u0633\u062a\u0644\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:10:59.743895", 
+  "name": "dd90986caf", 
+  "source_name": "Arabic Date of Issue", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:12:43.154960", 
+  "name": "f8f94a651d", 
+  "source_name": "Research Decision", 
+  "target_name": "\u0642\u0631\u0627\u0631 \u0627\u0644\u0628\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:13:34.951486", 
+  "name": "bb12ea15c4", 
+  "source_name": "Cheque Amount", 
+  "target_name": "\u0642\u064a\u0645\u0629 \u0627\u0644\u0634\u064a\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:39:02.069558", 
+  "name": "ef79ad4adc", 
+  "source_name": "Name of Client", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:14:43.178811", 
+  "name": "026c427c72", 
+  "source_name": "Cheque Status", 
+  "target_name": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0634\u064a\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:16:30.426879", 
+  "name": "d2683b5bd2", 
+  "source_name": "NOTES", 
+  "target_name": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:38:52.463894", 
+  "name": "e703fa21d0", 
+  "source_name": "Relation to the Client", 
+  "target_name": "\u0635\u0644\u0629 \u0627\u0644\u0642\u0631\u0627\u0628\u0629 \u0628\u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:22:16.584263", 
+  "name": "f74c32a47c", 
+  "source_name": "Social Status", 
+  "target_name": "\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:22:36.108647", 
+  "name": "6d8dc6d28f", 
+  "source_name": "Education Level", 
+  "target_name": "\u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u062a\u0639\u0644\u064a\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:23:25.655152", 
+  "name": "7305eb8bd8", 
+  "source_name": "Type of Attachment", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0631\u0641\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:24:20.576690", 
+  "name": "24cb8cd79d", 
+  "source_name": "Owner of Debt", 
+  "target_name": "\u0645\u0627\u0644\u0643 \u0627\u0644\u062f\u064a\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:25:30.164632", 
+  "name": "3aca5213d4", 
+  "source_name": "Monthly Installment", 
+  "target_name": "\u0627\u0644\u0642\u0633\u0637 \u0627\u0644\u0634\u0647\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:25:53.719286", 
+  "name": "c7bf834b7d", 
+  "source_name": "Deadline", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0639\u062f \u0627\u0644\u0646\u0647\u0627\u0626\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:30:01.016712", 
+  "name": "5b2a94c5e6", 
+  "source_name": "Job or Aid Title", 
+  "target_name": "\u0645\u0633\u0645\u0649 \u0627\u0644\u0648\u0638\u064a\u0641\u0629 \u0623\u0648 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:30:28.743704", 
+  "name": "8caf045d79", 
+  "source_name": "Income", 
+  "target_name": "\u0627\u0644\u062f\u062e\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:33:06.930623", 
+  "name": "5bf53d8629", 
+  "source_name": "Family Count", 
+  "target_name": "\u0639\u062f\u062f \u0627\u0644\u0623\u0633\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:33:31.493058", 
+  "name": "0ef1cc6d6d", 
+  "source_name": "House Address", 
+  "target_name": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0628\u064a\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:34:43.452449", 
+  "name": "6e7dd2aa2c", 
+  "source_name": "Type of Property", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0644\u0643\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:35:01.354136", 
+  "name": "266fc7588a", 
+  "source_name": "Status of Property", 
+  "target_name": "\u062d\u0627\u0644\u0629 \u0627\u0644\u0645\u0644\u0643\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-24 15:35:30.807135", 
+  "name": "c5a2782186", 
+  "source_name": "Info about the Property", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u062d\u0648\u0644 \u0627\u0644\u0645\u0644\u0643\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 14:57:21.437442", 
+  "name": "90b563a741", 
+  "source_name": "Patient Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0631\u064a\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 14:58:47.680905", 
+  "name": "1f765f0fb3", 
+  "source_name": "Illness\\Disease", 
+  "target_name": "\u0627\u0644\u0645\u0631\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 14:59:11.269925", 
+  "name": "2a743ba7ec", 
+  "source_name": "Amount", 
+  "target_name": "\u0627\u0644\u0643\u0645\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:01:01.230924", 
+  "name": "333533d0e6", 
+  "source_name": "Expense", 
+  "target_name": "\u0627\u0644\u0646\u0641\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:01:29.048733", 
+  "name": "b2197218f0", 
+  "source_name": "Loans", 
+  "target_name": "\u0627\u0644\u0642\u0631\u0648\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:01:56.514937", 
+  "name": "2ab7d00921", 
+  "source_name": "Rent", 
+  "target_name": "\u0627\u0644\u0625\u064a\u062c\u0627\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:02:32.593102", 
+  "name": "bfe825932d", 
+  "source_name": "Debts", 
+  "target_name": "\u0627\u0644\u062f\u064a\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:03:02.000670", 
+  "name": "c30a389f9a", 
+  "source_name": "Books", 
+  "target_name": "\u0643\u062a\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:03:33.852913", 
+  "name": "ee8635f646", 
+  "source_name": "Office Supplies", 
+  "target_name": "\u0627\u0644\u0644\u0648\u0627\u0632\u0645 \u0627\u0644\u0645\u0643\u062a\u0628\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:04:01.621716", 
+  "name": "7b107aec1b", 
+  "source_name": "School Bags", 
+  "target_name": "\u0627\u0644\u062d\u0642\u0627\u0626\u0628 \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:05:01.429115", 
+  "name": "ec50ddfa9a", 
+  "source_name": "Researcher Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0628\u0627\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:06:25.752141", 
+  "name": "a6381a5894", 
+  "source_name": "Research Committee", 
+  "target_name": "\u0639\u0636\u0648 \u0644\u062c\u0646\u0629 \u0627\u0644\u0628\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:06:59.968745", 
+  "name": "358694851b", 
+  "source_name": "Research Committee Name", 
+  "target_name": "\u0627\u0633\u0645 \u0639\u0636\u0648 \u0644\u062c\u0646\u0629 \u0627\u0644\u0628\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:07:24.701130", 
+  "name": "e6707485b1", 
+  "source_name": "Request Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:08:06.826586", 
+  "name": "5be608fc47", 
+  "source_name": "Term of Marriage", 
+  "target_name": "\u0634\u0631\u0648\u0637 \u0627\u0644\u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:10:57.224767", 
+  "name": "c24c0b7592", 
+  "source_name": "Broken Furniture\\Appliance\\Device", 
+  "target_name": "\u0627\u0644\u0623\u062b\u0627\u062b \\ \u0627\u0644\u0623\u062c\u0647\u0632\u0629 \u0627\u0644\u063a\u064a\u0631 \u0635\u0627\u0644\u062d\u064a\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:11:40.045858", 
+  "name": "d26ba3e00c", 
+  "source_name": "Unavailable Furniture\\Appliance\\Device", 
+  "target_name": "\u0627\u0644\u0623\u062b\u0627\u062b \\ \u0627\u0644\u0623\u062c\u0647\u0632\u0629\u0627\u0644\u063a\u064a\u0631 \u0645\u062a\u0648\u0641\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:13:13.700179", 
+  "name": "554003ec98", 
+  "source_name": "Family Card", 
+  "target_name": "\u0628\u0637\u0627\u0642\u0629 \u0627\u0644\u0639\u0627\u0626\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:13:44.832616", 
+  "name": "8772793caf", 
+  "source_name": "Medical Report", 
+  "target_name": "\u0627\u0644\u062a\u0642\u0631\u064a\u0631 \u0627\u0644\u0637\u0628\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:14:22.812766", 
+  "name": "478bef93f2", 
+  "source_name": "Bank Disclosure", 
+  "target_name": "\u0643\u0634\u0641 \u0627\u0644\u0628\u0646\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:15:02.648823", 
+  "name": "771305b2af", 
+  "source_name": "Salary Qualifier", 
+  "target_name": "\u062a\u0639\u0631\u064a\u0641 \u0627\u0644\u0631\u0627\u062a\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:15:23.304535", 
+  "name": "a55c8f86bc", 
+  "source_name": "Rent Contract", 
+  "target_name": "\u0639\u0642\u062f \u0627\u0644\u0625\u064a\u062c\u0627\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:15:51.358422", 
+  "name": "cec110caab", 
+  "source_name": "Image", 
+  "target_name": "\u0635\u0648\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:17:32.552635", 
+  "name": "19582b92be", 
+  "source_name": "charity management system", 
+  "target_name": "\u0646\u0638\u0627\u0645 \u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0623\u0639\u0645\u0627\u0644 \u0627\u0644\u062e\u064a\u0631\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:18:54.501784", 
+  "name": "10a4ac2c89", 
+  "source_name": "Request Form", 
+  "target_name": "\u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:38:32.256190", 
+  "name": "9ab38999cc", 
+  "source_name": "Client", 
+  "target_name": "\u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:19:32.078865", 
+  "name": "a7e4377e82", 
+  "source_name": "Coupon", 
+  "target_name": "\u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:20:17.588549", 
+  "name": "5e4e3d9264", 
+  "source_name": "Cheque Specification", 
+  "target_name": "\u062a\u062e\u0635\u064a\u0635 \u0627\u0644\u0634\u064a\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:24:20.709889", 
+  "name": "4ce9ec4a1f", 
+  "source_name": "Case Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u062d\u0627\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:24:51.135889", 
+  "name": "2c58ede8c2", 
+  "source_name": "Decisions", 
+  "target_name": "\u0642\u0631\u0627\u0631\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:25:30.571598", 
+  "name": "de89b55d03", 
+  "source_name": "Requested Aid Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:38:24.859633", 
+  "name": "5db438c39f", 
+  "source_name": "Client Relation", 
+  "target_name": "\u0635\u0644\u0629 \u0627\u0644\u0642\u0631\u0627\u0628\u0629 \u0628\u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:27:58.823675", 
+  "name": "5dc868f7ba", 
+  "source_name": "Coupon Packages", 
+  "target_name": "\u0623\u063a\u0631\u0627\u0636 \u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:28:28.690685", 
+  "name": "aaddede1d3", 
+  "source_name": "Household Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0646\u0632\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:55:57.479290", 
+  "name": "f771e8907d", 
+  "source_name": "Name of Type", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0646\u0648\u0639"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:56:35.021512", 
+  "name": "3a3f9ebf43", 
+  "source_name": "Level Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u0648\u0649"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:57:55.360464", 
+  "name": "ce09d8fb94", 
+  "source_name": "Name of Status", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u062d\u0627\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:58:37.318696", 
+  "name": "0fa65d7934", 
+  "source_name": "City Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0645\u062f\u064a\u0646\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:59:24.604851", 
+  "name": "916ced36a1", 
+  "source_name": "Neighborhood Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u062d\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 15:59:55.184481", 
+  "name": "804a1b85f5", 
+  "source_name": "Relation Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0639\u0644\u0627\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:00:34.494276", 
+  "name": "8a5ee1b15a", 
+  "source_name": "Name of Package", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u063a\u0631\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:00:54.217306", 
+  "name": "08baa0e1a3", 
+  "source_name": "Price of Package", 
+  "target_name": "\u0633\u0639\u0631 \u0627\u0644\u063a\u0631\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:01:54.642743", 
+  "name": "50badac5c0", 
+  "source_name": "Name of Decision", 
+  "target_name": "\u0645\u0633\u0645\u0649 \u0627\u0644\u0642\u0631\u0627\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:02:30.490883", 
+  "name": "2bcc48310c", 
+  "source_name": "Name of Request", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:02:53.327162", 
+  "name": "c6a08a3756", 
+  "source_name": "Company Name", 
+  "target_name": "\u0627\u0633\u0645 \u0627\u0644\u0634\u0631\u0643\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:03:19.895116", 
+  "name": "7a3ff841c3", 
+  "source_name": "Products of the Company", 
+  "target_name": "\u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0634\u0631\u0643\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:05:45.647743", 
+  "name": "38b72ce74e", 
+  "source_name": "Financial RQ", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0646\u0641\u0642\u0627\u062a \u0627\u0644\u0645\u0627\u0644\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:06:58.890789", 
+  "name": "03bd1a43dd", 
+  "source_name": "Gen Info CHQ", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0639\u0627\u0645\u0629 \u0639\u0646 \u0627\u0644\u0634\u064a\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:38:11.096776", 
+  "name": "b26ae9c600", 
+  "source_name": "Gen Info Client", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0639\u0627\u0645\u0629 \u0639\u0646 \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f\u064a\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:08:07.246838", 
+  "name": "64f88a35c9", 
+  "source_name": "Gen Info Coupon", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0639\u0627\u0645\u0629 \u0639\u0646 \u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:08:40.942263", 
+  "name": "f1a5e1c4ec", 
+  "source_name": "Gen Info Request", 
+  "target_name": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0639\u0627\u0645\u0629 \u0639\u0646 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 15:37:45.763515", 
+  "name": "cf96dd2bd5", 
+  "source_name": "Hoard Clients", 
+  "target_name": "\u0645\u0633\u062a\u0641\u064a\u062f\u064a\u0646 \u0627\u0644\u0645\u0624\u0648\u0646\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:09:53.039499", 
+  "name": "6fafcbf82c", 
+  "source_name": "Marriage RQ", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:10:30.766975", 
+  "name": "0e250ab5b1", 
+  "source_name": "Medical RQ", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0635\u062d\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:11:08.326827", 
+  "name": "5bf6906735", 
+  "source_name": "Requirements RQ", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0623\u062c\u0647\u0632\u0629/\u0627\u0644\u0623\u062b\u0627\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:11:41.853238", 
+  "name": "78316dc905", 
+  "source_name": "School RQ", 
+  "target_name": "\u0637\u0644\u0628 \u0627\u0644\u0646\u0641\u0642\u0627\u062a \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-08-26 16:13:15.645128", 
+  "name": "c7be8e9f87", 
+  "source_name": "Full RQ Form", 
+  "target_name": "\u062a\u0642\u0627\u0631\u064a\u0631 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 17:40:56.757898", 
+  "name": "0926307e20", 
+  "source_name": "Amount For Family", 
+  "target_name": "\u0627\u0644\u0645\u0628\u0644\u063a \u0644\u0644\u0623\u0633\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-07 17:45:05.621191", 
+  "name": "b7fb81e5ce", 
+  "source_name": "Amount Given To The Family Members", 
+  "target_name": "\u0627\u0644\u0645\u0628\u0644\u063a \u0627\u0644\u0645\u0645\u0646\u0648\u062d \u0644\u0623\u0641\u0631\u0627\u062f \u0627\u0644\u0623\u0633\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 17:47:00.531753", 
+  "name": "e3b4664bfe", 
+  "source_name": "Attachment Type", 
+  "target_name": "\u0646\u0648\u0639 \u0627\u0644\u0645\u0631\u0641\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:18:49.268786", 
+  "name": "5e8ce06453", 
+  "source_name": "Offered Aid", 
+  "target_name": "\u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0627\u062a \u0627\u0644\u0645\u0642\u062f\u0645\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:19:45.005358", 
+  "name": "6662c4456a", 
+  "source_name": "Offered Help", 
+  "target_name": "\u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0645\u0642\u062f\u0645\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:21:51.115868", 
+  "name": "e2ee24e1ee", 
+  "source_name": "Received Aid For Client", 
+  "target_name": "\u0627\u0644\u0645\u0633\u0627\u0639\u062f\u0629 \u0627\u0644\u0645\u0642\u062f\u0645\u0629 \u0644\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:24:00.909475", 
+  "name": "d92b225f42", 
+  "source_name": "Client Relations", 
+  "target_name": "\u0639\u0644\u0627\u0642\u0627\u062a \u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:27:23.667409", 
+  "name": "8292d55b09", 
+  "source_name": "Initiate", 
+  "target_name": "\u0625\u0628\u062a\u062f\u0627\u0621 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:28:17.014019", 
+  "name": "37271c2c43", 
+  "source_name": "Review Request", 
+  "target_name": "\u0645\u0631\u0627\u062c\u0639\u0629 \u0627\u0644\u0637\u0644\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:28:43.654588", 
+  "name": "ae84cfe901", 
+  "source_name": "Transfer to Researcher", 
+  "target_name": "\u0646\u0642\u0644 \u0625\u0644\u0649 \u0627\u0644\u0628\u0627\u062d\u062b\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:29:15.522367", 
+  "name": "00eddce0bf", 
+  "source_name": "Research Committee", 
+  "target_name": "\u0644\u062c\u0646\u0629 \u0627\u0644\u0628\u062d\u0648\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:31:04.568214", 
+  "name": "78d42df150", 
+  "source_name": "Awaiting Researcher", 
+  "target_name": "\u0641\u064a \u0627\u0646\u062a\u0638\u0627\u0631 \u0627\u0644\u0628\u0627\u062d\u062b\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:32:46.692674", 
+  "name": "77da611776", 
+  "source_name": "Approve", 
+  "target_name": "\u0645\u0648\u0627\u0641\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:33:22.026468", 
+  "name": "7328a88bea", 
+  "source_name": "Reject", 
+  "target_name": "\u0631\u0641\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:33:58.049234", 
+  "name": "51e24d744f", 
+  "source_name": "Rejected", 
+  "target_name": "\u0645\u0631\u0641\u0648\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:34:27.436226", 
+  "name": "7bec09e750", 
+  "source_name": "Approved By Researcher", 
+  "target_name": "\u0645\u0639\u062a\u0645\u062f \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u0628\u0627\u062d\u062b\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:35:05.924116", 
+  "name": "b6b6e334e1", 
+  "source_name": "Approve for Full Aid", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u0648\u0646\u0629 \u0627\u0644\u0643\u0627\u0645\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:35:44.216236", 
+  "name": "d56ecf54ed", 
+  "source_name": "Approve for Cheques", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0634\u064a\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:36:15.708499", 
+  "name": "d63e195895", 
+  "source_name": "Approve for Coupons", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:37:24.763467", 
+  "name": "55e81ed6a6", 
+  "source_name": "Approve for Marked Fields", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0635\u0641\u0648\u0641 \u0627\u0644\u0645\u062d\u062f\u062f\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:38:48.047293", 
+  "name": "e79dff748f", 
+  "source_name": "Approved for Full Aid", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0645\u0639\u0648\u0646\u0629 \u0627\u0644\u0643\u0627\u0645\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:39:34.641090", 
+  "name": "388a9f05e9", 
+  "source_name": "Full Aid Received", 
+  "target_name": "\u062a\u0645 \u062a\u0633\u0644\u064a\u0645 \u0627\u0644\u0645\u0639\u0648\u0646\u0629 \u0627\u0644\u0643\u0627\u0645\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:41:36.733792", 
+  "name": "1049d913a2", 
+  "source_name": "Approved for Marked Fields", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0635\u0641\u0648\u0641 \u0627\u0644\u0645\u062d\u062f\u062f\u0629 \u0641\u0642\u0637"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:42:21.267044", 
+  "name": "7798949c79", 
+  "source_name": "Approved For Coupons Only", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0644\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0641\u0642\u0637"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:42:45.655113", 
+  "name": "3078cc8f6c", 
+  "source_name": "Approved for Cheques Only", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0627\u0641\u0642\u0629 \u0639\u0644\u0649 \u0627\u0644\u0634\u064a\u0643\u0627\u062a \u0641\u0642\u0637"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:43:25.923282", 
+  "name": "e94655e614", 
+  "source_name": "Coupons Received", 
+  "target_name": "\u062a\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0627\u0644\u0643\u0648\u0628\u0648\u0646\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:43:57.133548", 
+  "name": "4df853db02", 
+  "source_name": "Cheques Received", 
+  "target_name": "\u062a\u0645 \u0627\u0633\u062a\u0644\u0627\u0645 \u0627\u0644\u0634\u064a\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:47:31.394086", 
+  "name": "17c54ccb82", 
+  "source_name": "Research Committee Received Date", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0633\u062a\u0644\u0627\u0645 \u0644\u062c\u0646\u0629 \u0627\u0644\u0628\u062d\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:47:59.413300", 
+  "name": "a26ee1fd13", 
+  "source_name": "Arabic Research Committee Received Date", 
+  "target_name": "\u062a\u0627\u0631\u064a\u062e \u0627\u0633\u062a\u0644\u0627\u0645 \u0644\u062c\u0646\u0629 \u0627\u0644\u0628\u062d\u062b \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:56:55.343934", 
+  "name": "93c8856bc6", 
+  "source_name": "Arabic Deadline", 
+  "target_name": "\u0627\u0644\u0645\u0648\u0639\u062f \u0627\u0644\u0646\u0647\u0627\u0626\u064a \u0628\u0627\u0644\u0647\u062c\u0631\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-09-11 18:57:09.375656", 
+  "name": "e1984b6de0", 
+  "source_name": "The Company", 
+  "target_name": "\u0627\u0644\u0634\u0631\u0643\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:08:09.297467", 
+  "name": "ca2f31d2f2", 
+  "source_name": "Amount For Families", 
+  "target_name": "\u0627\u0644\u0645\u0628\u0644\u063a \u0644\u0644\u0639\u0627\u0626\u0644\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:09:59.281366", 
+  "name": "37dcbfa88a", 
+  "source_name": "Full RQ Form2", 
+  "target_name": "\u062a\u0642\u0627\u0631\u064a\u0631 \u0627\u0644\u0637\u0644\u0628 2"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:10:33.860710", 
+  "name": "f069244181", 
+  "source_name": "Full-Time Client", 
+  "target_name": "\u0627\u0644\u0645\u0633\u062a\u0641\u064a\u062f\u0648\u0646 \u0627\u0644\u0634\u0627\u0645\u0644\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:12:39.507363", 
+  "name": "62c681faca", 
+  "source_name": "Quantity", 
+  "target_name": "\u0627\u0644\u0643\u0645\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:13:26.340810", 
+  "name": "2fa88d3405", 
+  "source_name": "Rate", 
+  "target_name": "\u0627\u0644\u0633\u0639\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:16:14.940725", 
+  "name": "a4ece6f721", 
+  "source_name": "Cheque Names", 
+  "target_name": "\u0623\u0633\u0645\u0627\u0621 \u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0644\u0644\u0634\u064a\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Translation", 
+  "language": "ar", 
+  "modified": "2017-10-08 16:23:20.429222", 
+  "name": "cd72c3a2ec", 
+  "source_name": "School Project", 
+  "target_name": "\u0627\u0644\u062d\u0642\u064a\u0628\u0629 \u0627\u0644\u0645\u062f\u0631\u0633\u064a\u0629"
+ }
+]
