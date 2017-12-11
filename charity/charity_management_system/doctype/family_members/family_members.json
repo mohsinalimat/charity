@@ -281,7 +281,7 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "unique": 1
+   "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
@@ -448,7 +448,7 @@
  "issingle": 0, 
  "istable": 1, 
  "max_attachments": 0, 
- "modified": "2017-12-11 09:06:55.551376", 
+ "modified": "2017-12-11 10:06:55.551376", 
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "Family Members", 
