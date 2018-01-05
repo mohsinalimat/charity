@@ -100,23 +100,23 @@ notification_config = "charity.notifications.get_notification_config"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"charity.tasks.all"
-# 	],
-# 	"daily": [
-# 		"charity.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"charity.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"charity.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"charity.tasks.monthly"
-# 	]
-# }
+scheduler_events = {
+	# "all": [
+	# 	"charity.tasks.all"
+	# ],
+	"daily": [
+		"charity.charity_management_system.tools.stop_hoard"
+	],
+	# "hourly": [
+	# 	"charity.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"charity.tasks.weekly"
+	# ]
+	# "monthly": [
+	# 	"charity.tasks.monthly"
+	# ]
+}
 
 # Testing
 # -------
