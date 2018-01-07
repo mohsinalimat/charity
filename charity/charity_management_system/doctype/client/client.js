@@ -134,7 +134,7 @@ frappe.ui.form.on('Client', {
 		});
 		 refresh_field("family_tree");
 
-		 var total = 0;
+		 var total = 1;
  		frm.doc.family_tree.forEach(function(d) {
  				total += 1;
  		});
@@ -182,7 +182,7 @@ frappe.ui.form.on('Family Members', {
 	},
 	family_tree_add:function(frm){
 		// frm.trigger("calculate_members");
-		var total = 0;
+		var total = 1;
 		frm.doc.family_tree.forEach(function(d) {
 				total += 1;
 		});
@@ -209,7 +209,7 @@ frappe.ui.form.on('Family Members', {
 	},
 	family_tree_remove:function(frm){
 		// frm.trigger("calculate_members");
-		var total = 0;
+		var total = 1;
 		frm.doc.family_tree.forEach(function(d) {
 				total += 1;
 		});
