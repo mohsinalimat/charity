@@ -77,30 +77,31 @@ frappe.ui.form.on('Client', {
 		}
 	},
 	move1:function(frm) {
+		debugger;
 		$.each(frm.doc.family_tree,function(index,row) {
 			if(row.__checked){
 				var new_row = frm.add_child("family_members_not_included");
-                new_row.full_name = row.full_name;
-                new_row.date_of_birth = row.date_of_birth;
-                new_row.h_date_of_birth = row.h_date_of_birth;
-                new_row.place_of_birth = row.place_of_birth;
-								new_row.health_status = row.health_status;
-								new_row.age = row.age;
-								new_row.national_id = row.national_id;
-								new_row.relation_to_the_client = row.relation_to_the_client;
-								new_row.social_status = row.social_status;
-								new_row.education_level = row.education_level;
-								new_row.notes = row.notes;
+                new_row.full_name2 = row.full_name1;
+                new_row.date_of_birth2 = row.date_of_birth1;
+                new_row.h_date_of_birth2 = row.h_date_of_birth1;
+                new_row.place_of_birth2 = row.place_of_birth1;
+								new_row.health_status2 = row.health_status1;
+								new_row.age2 = row.age;
+								new_row.national_id2 = row.national_id1;
+								new_row.relation_to_the_client2 = row.relation_to_the_client1;
+								new_row.social_status2 = row.social_status1;
+								new_row.education_level2 = row.education_level1;
+								new_row.notes2 = row.notes1;
 				frm.get_field("family_tree").grid.grid_rows[row.idx-1].remove();
 			}
 		});
 		 refresh_field("family_members_not_included");
 
 		 frappe.call({
-			 "method": "frappe.client.get",
+			 "method": "frappe.client.get_value",
 			 args: {
 				 doctype: "Amount For Families",
-
+ 				fieldname: "amount",
 				 filters: {
 					 "family_count": frm.doc.total
 				 },
@@ -117,23 +118,23 @@ frappe.ui.form.on('Client', {
 		$.each(frm.doc.family_members_not_included,function(index,row) {
 			if(row.__checked){
 				var new_row = frm.add_child("family_tree");
-								new_row.full_name = row.full_name;
-								new_row.date_of_birth = row.date_of_birth;
-								new_row.h_date_of_birth = row.h_date_of_birth;
-								new_row.place_of_birth = row.place_of_birth;
-								new_row.health_status = row.health_status;
-								new_row.age = row.age;
-								new_row.national_id = row.national_id;
-								new_row.relation_to_the_client = row.relation_to_the_client;
-								new_row.social_status = row.social_status;
-								new_row.education_level = row.education_level;
-								new_row.notes = row.notes;
+								new_row.full_name1 = row.full_name2;
+								new_row.date_of_birth1 = row.date_of_birth2;
+								new_row.h_date_of_birth1 = row.h_date_of_birth2;
+								new_row.place_of_birth1 = row.place_of_birth2;
+								new_row.health_status1 = row.health_status2;
+								new_row.age1 = row.age2;
+								new_row.national_id1 = row.national_id2;
+								new_row.relation_to_the_client1 = row.relation_to_the_client2;
+								new_row.social_status1 = row.social_status2;
+								new_row.education_level1 = row.education_level2;
+								new_row.notes1 = row.notes2;
 				frm.get_field("family_members_not_included").grid.grid_rows[row.idx-1].remove();
 			}
 		});
 		 refresh_field("family_tree");
 
-		 var total = 0;
+		 var total = 1;
  		frm.doc.family_tree.forEach(function(d) {
  				total += 1;
  		});
@@ -142,10 +143,10 @@ frappe.ui.form.on('Client', {
  		frm.refresh_field("total");
 
 		frappe.call({
-			"method": "frappe.client.get",
+			"method": "frappe.client.get_value",
 			args: {
 				doctype: "Amount For Families",
-
+				fieldname: "amount",
 				filters: {
 					"family_count": total
 				},
@@ -163,16 +164,16 @@ frappe.ui.form.on('Client', {
 
 
 frappe.ui.form.on('Family Members', {
-	date_of_birth: function(frm, cdt, cdn) {
+	date_of_birth1: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
-		var date = row.date_of_birth;
-		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth",getHijriDate(date));
-		frm.refresh_field("h_date_of_birth");
+		var date = row.date_of_birth1;
+		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth1",getHijriDate(date));
+		frm.refresh_field("h_date_of_birth1");
 
-		frappe.model.set_value(row.doctype, row.name, "age", getAge(row.date_of_birth));
+		frappe.model.set_value(row.doctype, row.name, "age", getAge(date));
 		frm.refresh_field("age");
 	},
-	national_id:function(frm, cdt, cdn) {
+	national_id1:function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
 		if(row.national_id.length < 10){
 			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
@@ -181,7 +182,7 @@ frappe.ui.form.on('Family Members', {
 	},
 	family_tree_add:function(frm){
 		// frm.trigger("calculate_members");
-		var total = 0;
+		var total = 1;
 		frm.doc.family_tree.forEach(function(d) {
 				total += 1;
 		});
@@ -190,10 +191,10 @@ frappe.ui.form.on('Family Members', {
 		frm.refresh_field("total");
 
 		frappe.call({
-			"method": "frappe.client.get",
+			"method": "frappe.client.get_value",
 			args: {
 				doctype: "Amount For Families",
-
+				fieldname: "amount",
 				filters: {
 					"family_count": total
 				},
@@ -208,7 +209,7 @@ frappe.ui.form.on('Family Members', {
 	},
 	family_tree_remove:function(frm){
 		// frm.trigger("calculate_members");
-		var total = 0;
+		var total = 1;
 		frm.doc.family_tree.forEach(function(d) {
 				total += 1;
 		});
@@ -217,10 +218,10 @@ frappe.ui.form.on('Family Members', {
 		frm.refresh_field("total");
 
 		frappe.call({
-			"method": "frappe.client.get",
+			"method": "frappe.client.get_value",
 			args: {
 				doctype: "Amount For Families",
-
+				fieldname: "amount",
 				filters: {
 					"family_count": total
 				},
@@ -242,17 +243,17 @@ frappe.ui.form.on('Family Members', {
 });
 
 frappe.ui.form.on('Unincluded Dependent', {
-	date_of_birth: function(frm, cdt, cdn) {
+	date_of_birth2: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
-		var date = row.date_of_birth;
-		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth",getHijriDate(date));
-		frm.refresh_field("h_date_of_birth");
+		var date = row.date_of_birth2;
+		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth2",getHijriDate(date));
+		frm.refresh_field("h_date_of_birth2");
 
-		frappe.model.set_value(row.doctype, row.name, "age", getAge(row.date_of_birth));
-		frm.refresh_field("age");
+		frappe.model.set_value(row.doctype, row.name, "age2", getAge(date));
+		frm.refresh_field("age2");
 
 },
-national_id:function(frm, cdt, cdn) {
+national_id2:function(frm, cdt, cdn) {
 	var row = locals[cdt][cdn];
 	if(row.national_id.length < 10){
 		msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
@@ -302,18 +303,21 @@ frappe.ui.form.on("Job", {
         frm.set_value("total_monthly_income", total);
         frm.refresh_field("total_monthly_income");
 
-				frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+		// frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+		frm.set_value("average_monthly_income", total / frm.doc.jobs.length);
         frm.refresh_field("average_monthly_income");
     },jobs_remove:function(frm){
-			var total = 0;
-			frm.doc.jobs.forEach(function(d) {
+		var total = 0;
+		frm.doc.jobs.forEach(function(d) {
 					total += d.salary;
-			});
+		});
+		debugger;
 
-			frm.set_value("total_monthly_income", total);
-			frm.refresh_field("total_monthly_income");
+		frm.set_value("total_monthly_income", total);
+		frm.refresh_field("total_monthly_income");
 
-			frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
-			frm.refresh_field("average_monthly_income");
-		}
+		// frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+		frm.set_value("average_monthly_income", total / frm.doc.jobs.length);
+		frm.refresh_field("average_monthly_income");
+	}
 });
