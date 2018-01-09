@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2017, Accurate Systems and Contributors
+# Copyright (c) 2018, Accurate Systems and Contributors
 # See license.txt
 from __future__ import unicode_literals
 

@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import frappe
 import json
-
+from frappe import utils
 from frappe import _
 from frappe.model.mapper import get_mapped_doc
 from frappe.model.document import Document
@@ -23,3 +24,13 @@ def make_coupon(source_name, target_doc=None):
         }
     }, target_doc, set_missing_values)
     return target_doc
+
+
+def stop_hoard():
+    clients = frappe.get_list("Client",filters={"joining_type":"مؤونة"},fields=["*"])
+
+    for client in clients:
+        # print "utils.today() = {} client.end_date = {}".format(type(utils.today()),type(client.end_date))
+        if str(client.end_date) == str(utils.today()):
+            print "ggggg"
+            frappe.set_value('Client', client.name, 'joining_type',"موقوف")
