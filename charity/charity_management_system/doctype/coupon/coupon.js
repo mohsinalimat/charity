@@ -10,6 +10,13 @@ frappe.ui.form.on('Coupon', {
 			 frm.set_value("copy",copy);
 			 frm.save();
 		});
+		cur_frm.set_query("item", function() {
+        return {
+            "filters": {
+                package_type: frm.doc.package_type
+            }
+        };
+    });
 	},
 	refresh: function(frm) {
 		if(frm.doc.__islocal){
