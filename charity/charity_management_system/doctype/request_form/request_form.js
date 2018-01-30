@@ -170,3 +170,13 @@ frappe.ui.form.on("Cheque Specification", {
     frappe.model.set_value(row.doctype, row.name, "name_of_client",frm.doc.full_name);
   }
 });
+
+cur_frm.fields_dict["recommendation_table"].grid.get_field("item").get_query = function(frm, cdt, cdn){
+var d = locals[cdt][cdn];
+console.log("d",d);
+      return {
+              filters:{
+                       package_type: d.package_type
+              }
+      }
+}
