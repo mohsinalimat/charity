@@ -92,6 +92,10 @@ frappe.ui.form.on('Client', {
 								new_row.social_status2 = row.social_status1;
 								new_row.education_level2 = row.education_level1;
 								new_row.notes2 = row.notes1;
+
+								new_row.semester_grade_percentage2 = row.semester_grade_percentage1;
+								new_row.evaluation2 = row.evaluation1;
+								new_row.date_of_grade2 = row.date_of_grade1;
 				frm.get_field("family_tree").grid.grid_rows[row.idx-1].remove();
 			}
 		});
@@ -129,6 +133,10 @@ frappe.ui.form.on('Client', {
 								new_row.social_status1 = row.social_status2;
 								new_row.education_level1 = row.education_level2;
 								new_row.notes1 = row.notes2;
+
+								new_row.semester_grade_percentage1 = row.semester_grade_percentage2;
+								new_row.evaluation1 = row.evaluation2;
+								new_row.date_of_grade1 = row.date_of_grade2;
 				frm.get_field("family_members_not_included").grid.grid_rows[row.idx-1].remove();
 			}
 		});
