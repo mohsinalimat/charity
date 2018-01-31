@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 from __future__ import unicode_literals
 import frappe
 import json
@@ -27,7 +31,7 @@ def make_coupon(source_name, target_doc=None):
 
 
 def stop_hoard():
-    clients = frappe.get_list("Client",filters={"joining_type":("in" ,("شامل مؤقت", "مؤونة")},fields=["*"])
+    clients = frappe.get_list("Client",filters={"joining_type":("in" ,['شامل مؤقت','مؤونة'])},fields=["*"])
 
     for client in clients:
         # print "utils.today() = {} client.end_date = {}".format(type(utils.today()),type(client.end_date))
