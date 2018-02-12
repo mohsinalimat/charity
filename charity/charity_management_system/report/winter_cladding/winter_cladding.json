@@ -7,15 +7,16 @@
  "doctype": "Report", 
  "idx": 0, 
  "is_standard": "Yes", 
- "json": "{\"add_total_row\": 0, \"sort_by\": \"Client.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"name\", \"Client\"], [\"full_name\", \"Client\"], [\"national_id\", \"Client\"], [\"big_blankets\", \"Client\"], [\"small_blankets\", \"Client\"], [\"heaters\", \"Client\"], [\"jackets\", \"Client\"], [\"date_of_receive\", \"Client\"]]}", 
- "modified": "2017-12-11 12:56:32.752772", 
+ "json": "{\"add_total_row\": 0, \"sort_by\": \"Client.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"name\", \"Client\"], [\"full_name\", \"Client\"], [\"national_id\", \"Client\"], [\"big_blankets\", \"Client\"], [\"small_blankets\", \"Client\"], [\"heaters\", \"Client\"], [\"jackets\", \"Client\"], [\"years_from_receiving\", \"Client\"], [\"years_from_receiving_heaters\", \"Client\"]]}", 
+ "modified": "2018-02-12 13:33:22.148978", 
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "Winter Cladding", 
  "owner": "Administrator", 
+ "query": "select c.name 'File Number:Link/Client:150',c.full_name as 'Full Name:Read Only:200',max(wct.date_of_receive) as 'Date:Read Only:150',TIMESTAMPDIFF(Year,max(wct.date_of_receive), Now()) as 'Time'\nfrom tabClient c,`tabWinter Cladding Table` as wct \nwhere c.name = wct.parent\ngroup by  c.name", 
  "ref_doctype": "Client", 
  "report_name": "Winter Cladding", 
- "report_type": "Report Builder", 
+ "report_type": "Query Report", 
  "roles": [
   {
    "role": "System Manager"
