@@ -15,7 +15,7 @@ fixtures = [
     "Workflow", "Workflow State", "Workflow Action", "Case Type",
     "Property Type", "Requested Aid Type", "City", "Client Relation",
     "Education Status", "Health Status", "Household Type", "Neighborhood",
-    "Social Status", "Desktop Icon", "Translation", "Naming Series","Translation"
+    "Social Status", "Translation", "Naming Series","Translation"
 ]
 
 # Includes in <head>
