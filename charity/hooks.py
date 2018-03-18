@@ -38,7 +38,7 @@ website_context = {
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js = {"Request Form" : "public/js/request_form_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 
 # Home Pages
