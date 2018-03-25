@@ -241,14 +241,33 @@ frappe.ui.form.on('Family Members', {
 				}
 			}
 		});
-
-
-	}
-	// calculate_members:function (frm){
-	//
-	// }
-
+	},
+	gender1:function (frm, cdt, cdn){
+		var row = locals[cdt][cdn];
+		frappe.call({
+			"method": "frappe.client.get",
+			args: {
+				doctype: "Education Status",
+        name: row.education_level1
+			},
+			callback: function(data) {
+				if (data.message) {
+					console.log("data.message",data.message);
+					if(row.gender1 == "Male"){
+						frappe.model.set_value(row.doctype, row.name,"grade1", data.message.boy_grade);
+						frappe.model.set_value(row.doctype, row.name,"clothing1", data.message.boy_clothing);
+					}else{
+						frappe.model.set_value(row.doctype, row.name,"grade1", data.message.girl_grade);
+						frappe.model.set_value(row.doctype, row.name,"clothing1", data.message.girl_clothing);
+					}
+					refresh_field("grade1");
+					refresh_field("clothing1");
+				}
+			}
+			});
+		}
 });
+
 
 frappe.ui.form.on('Unincluded Dependent', {
 	date_of_birth2: function(frm, cdt, cdn) {
