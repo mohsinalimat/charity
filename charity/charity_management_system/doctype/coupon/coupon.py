@@ -10,10 +10,6 @@ from umalqurra.hijri_date import HijriDate
 
 
 class Coupon(Document):
-    def autoname(self):
-        um = HijriDate.today()
-        year = str(um.year)[2:-2]
-        self.name = make_autoname(self.naming_series + year)
 
     def before_insert(self):
         print "#####################################"

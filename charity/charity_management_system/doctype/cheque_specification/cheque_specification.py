@@ -10,10 +10,6 @@ from umalqurra.hijri_date import HijriDate
 
 
 class ChequeSpecification(Document):
-    def autoname(self):
-        um = HijriDate.today()
-        year = str(um.year)[2:-2]
-        self.name = make_autoname(self.naming_series + year)
 
     def before_insert(self):
         self.parent = self.file_number

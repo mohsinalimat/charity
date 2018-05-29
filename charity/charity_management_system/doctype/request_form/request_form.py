@@ -10,8 +10,3 @@ from umalqurra.hijri_date import HijriDate
 
 class RequestForm(Document):
     pass
-
-    def autoname(self):
-        um = HijriDate.today()
-        year = str(um.year)[2:-2]
-        self.name = make_autoname(self.naming_series + year)
