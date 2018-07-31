@@ -146,7 +146,8 @@ frappe.ui.form.on("Coupon", {
     frappe.model.set_value(row.doctype, row.name, 'request_number', frm.doc.name);
     var today_date = frappe.datetime.nowdate();
     frappe.model.set_value(row.doctype, row.name, "h_date_of_coupon",getHijriDate(today_date));
-    frappe.model.set_value(row.doctype, row.name, "full_name",frm.doc.full_name);
+    frappe.model.set_value(row.doctype, row.name, "full_name", frm.doc.full_name);
+    frappe.model.set_value(row.doctype, row.name, 'mobile_number', frm.doc.mobile_number);
   },
   date_of_birth: function(frm) {
     var date = frm.doc.date_of_birth;
