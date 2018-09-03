@@ -46,33 +46,62 @@ frappe.ui.form.on('Client', {
 		frm.set_value("one_month_rent",frm.doc.yearly_rent /12);
 	},
 	national_id:function(frm) {
+		frappe.call({
+			method: "frappe.client.get_list",
+			async: false,
+			args: {
+					doctype: "Client",
+					fields: ["national_id"],
+					filters: {
+							"national_id": frm.doc.national_id
+					},
+					limit_page_length: 1
+			},
+			callback: function(r) {
+				if (r.message) {
+					console.log("national_id  =", r.message);
+					frappe.throw(__("Same Client with the Same National ID Already Exist in Record"));
+					return false;
+				}
+				var nat = frm.doc.national_id;
+				if(frm.doc.national_id.length < 10){
+					frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
+					return false;
+				}
+			}
+	});
+		// 
 		// debugger;
-		if(frm.doc.national_id.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
-			return false;
-		}
+		
+		// if(frm.doc.national_id == nat){
+		// 	console.log("frm.doc.national_id",frm.doc.national_id);
+		// 	frappe.throw(__("Same Client with the Same National ID Already Exist in Record"));
+		// 	frappe.validated=false;
+		// 	return false;
+		// }
+		// frm.refresh_field("national_id");
 	},
 	mobile_no:function(frm) {
 		if(frm.doc.mobile_no.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
 	},
 	second_mobile_no:function(frm) {
 		if(frm.doc.second_mobile_no.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
 	},
 	thrid_mobile_no:function(frm) {
 		if(frm.doc.thrid_mobile_no.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
 	},
 	work_telephone_no:function(frm) {
 		if(frm.doc.work_telephone_no.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
 	},
@@ -166,11 +195,33 @@ frappe.ui.form.on('Client', {
 				}
 			}
 		});
-	}
+	},
+	// Duplicate Code
+
+// national_id:function(frm) {
+
+// 	 refresh_field("national_id");
+
+// 	frappe.call({
+// 		"method": "frappe.client.get_value",
+// 		args: {
+// 			doctype: "Client",
+// 			fieldname: "national_id",
+// 			filters: {
+// 				national_id: frm.doc.national_id
+// 			},
+// 		},
+// 		callback: function(data) {
+// 			if (data.message) {
+// 				frappe.frappe.throw("Same Client with the Same National ID Already Exist in Record.");
+// 				validated=false;
+// 				return false;
+// 			}
+// 		}
+// 	});
+// 	}
+	// Till here
 });
-
-
-
 frappe.ui.form.on('Family Members', {
 	date_of_birth1: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
@@ -184,7 +235,7 @@ frappe.ui.form.on('Family Members', {
 	national_id1:function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
 		if(row.national_id.length < 10){
-			msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+			frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 			return false;
 		}
 	},
@@ -283,7 +334,7 @@ frappe.ui.form.on('Unincluded Dependent', {
 national_id2:function(frm, cdt, cdn) {
 	var row = locals[cdt][cdn];
 	if(row.national_id.length < 10){
-		msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+		frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 		return false;
 	}
 }
@@ -314,7 +365,7 @@ frappe.ui.form.on('Dependent worker', {
 national_id:function(frm, cdt, cdn) {
 	var row = locals[cdt][cdn];
 	if(row.national_id.length < 10){
-		msgprint(__("The nubmer is incomplete, you have to enter 10 digit"));
+		frappe.throw(__("The nubmer is incomplete, you have to enter 10 digit"));
 		return false;
 	}
 }
