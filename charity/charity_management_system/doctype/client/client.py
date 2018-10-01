@@ -14,7 +14,5 @@ class Client(Document):
 		filters= {"national_id":self.national_id},
 		as_list=True)
 		print "client = {}".format(frappe.as_json(client))
-		if len(client) > 0 :
-			frappe.throw(_("Same Client with the Same National ID Already Exist in Record"))
 		if len(self.national_id) < 10:
 			frappe.throw(_("The nubmer is incomplete, you have to enter 10 digit"))
