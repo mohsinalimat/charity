@@ -287,7 +287,25 @@ frappe.ui.form.on('Client Debt', {
 		var date = row.deadline;
 		frappe.model.set_value(row.doctype, row.name, "h_deadline",getHijriDate(date));
 		frm.refresh_field("h_deadline");
+	},
+	monthly_installment: function(frm, cdt, cdn) {
+        var install = 0;
+        frm.doc.debts.forEach(function(d) {
+            install += d.monthly_installment;
+		});
+		
+		frm.set_value("total_monthly_installment", install);
+		frm.refresh_field("total_monthly_installment");
+	},
+	install_remove:function(frm){
+		var install = 0;
+        frm.doc.debts.forEach(function(d) {
+            install += d.monthly_installment;
+		});
+		debugger;
 
+		frm.set_value("total_monthly_installment", install);
+		frm.refresh_field("total_monthly_installment");
 	}
 });
 
@@ -322,7 +340,7 @@ frappe.ui.form.on("Job", {
         frm.set_value("total_monthly_income", total);
         frm.refresh_field("total_monthly_income");
 
-		frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+		frm.set_value("average_monthly_income", (total - frm.doc.total_monthly_installment - frm.doc.one_month_rent)/frm.doc.total);
 		// frm.set_value("average_monthly_income", total / frm.doc.jobs.length);
         frm.refresh_field("average_monthly_income");
 	},
@@ -336,7 +354,7 @@ frappe.ui.form.on("Job", {
 		frm.set_value("total_monthly_income", total);
 		frm.refresh_field("total_monthly_income");
 
-		frm.set_value("average_monthly_income", (total - frm.doc.one_month_rent)/frm.doc.total);
+		frm.set_value("average_monthly_income", (total - frm.doc.total_monthly_installment - frm.doc.one_month_rent)/frm.doc.total);
 		// frm.set_value("average_monthly_income", total / frm.doc.jobs.length);
 		frm.refresh_field("average_monthly_income");
 	}
