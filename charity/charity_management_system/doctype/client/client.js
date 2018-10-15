@@ -257,6 +257,25 @@ frappe.ui.form.on('Family Members', {
 				}
 			}
 			});
+		},
+		orphan_amount: function(frm, cdt, cdn) {
+			var orphan = 0;
+			frm.doc.family_tree.forEach(function(d) {
+				orphan += d.orphan_amount;
+			});
+			
+			frm.set_value("amount_total", orphan);
+			frm.refresh_field("amount_total");
+		},
+		family_tree_remove:function(frm){
+			var orphan = 0;
+			frm.doc.family_tree.forEach(function(d) {
+				orphan += d.orphan_amount;
+			});
+			debugger;
+	
+			frm.set_value("amount_total", orphan);
+			frm.refresh_field("amount_total");
 		}
 });
 
@@ -297,7 +316,7 @@ frappe.ui.form.on('Client Debt', {
 		frm.set_value("total_monthly_installment", install);
 		frm.refresh_field("total_monthly_installment");
 	},
-	install_remove:function(frm){
+	debts_remove:function(frm){
 		var install = 0;
         frm.doc.debts.forEach(function(d) {
             install += d.monthly_installment;
@@ -317,7 +336,17 @@ frappe.ui.form.on("Offered Help", {
         });
         frm.set_value("total_amount", total);
         frm.refresh_field("total_amount");
-    }
+    },
+	offered_help_remove:function(frm){
+		var total = 0;
+        frm.doc.offered_help.forEach(function(d) {
+            install += d.amount;
+		});
+		debugger;
+
+		frm.set_value("total_amount", total);
+		frm.refresh_field("total_amount");
+	}
 });
 
 frappe.ui.form.on('Dependent worker', {

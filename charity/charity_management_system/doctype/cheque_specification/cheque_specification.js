@@ -15,5 +15,12 @@ frappe.ui.form.on('Cheque Specification', {
 		var date = frm.doc.date_of_issue;
 		frm.set_value("h_date_of_issue",getHijriDate(date));
 		frm.refresh_field("h_date_of_issue");
+	},
+	onload:function(frm) {
+		if(frm.doc.delivered){
+			cur_frm.fields.forEach(function(l){ 
+			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+			 });
+		}
 	}
 });

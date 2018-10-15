@@ -38,5 +38,12 @@ frappe.ui.form.on('Coupon', {
 	quantity: function(frm) {
 		frm.set_value("total",frm.doc.rate * frm.doc.quantity);
 		frm.refresh_field("total");
+	},
+	onload:function(frm) {
+		if(frm.doc.delivered){
+			cur_frm.fields.forEach(function(l){ 
+			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+			 });
+		}
 	}
 });
