@@ -4,11 +4,20 @@
   "doctype": "Workflow", 
   "document_type": "Request Form", 
   "is_active": 1, 
-  "modified": "2018-07-31 06:02:32.752083", 
+  "modified": "2018-10-17 13:29:37.140938", 
   "name": "Request Workflow", 
   "override_status": 0, 
   "send_email_alert": 0, 
   "states": [
+   {
+    "allow_edit": "Request Modifier", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Initiate", 
+    "update_field": null, 
+    "update_value": null
+   }, 
    {
     "allow_edit": "Client Relations", 
     "doc_status": "0", 
@@ -101,6 +110,14 @@
    }
   ], 
   "transitions": [
+   {
+    "action": "Initiate", 
+    "allow_self_approval": 0, 
+    "allowed": "Request Modifier", 
+    "condition": null, 
+    "next_state": "Review Request", 
+    "state": "Initiate"
+   }, 
    {
     "action": "Transfer to Researcher", 
     "allow_self_approval": 0, 

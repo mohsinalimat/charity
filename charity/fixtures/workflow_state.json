@@ -151,5 +151,14 @@
   "name": "Approved for Marked Fields", 
   "style": "", 
   "workflow_state_name": "Approved for Marked Fields"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2018-10-17 13:04:34.755555", 
+  "name": "Initiate", 
+  "style": "", 
+  "workflow_state_name": "Initiate"
  }
 ]
