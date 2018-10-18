@@ -12,9 +12,12 @@ frappe.ui.form.on('Coupon', {
 		});
 		cur_frm.set_query("item", function() {
         return {
-            "filters": {
-                package_type: frm.doc.package_type
-            }
+            // "filters": {
+            //     package_type: frm.doc.package_type
+			// }
+			filters: [
+			 			['package_type', '=', frm.doc.package_type]
+			 		]
         };
     });
 	},
