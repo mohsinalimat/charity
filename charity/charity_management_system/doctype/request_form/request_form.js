@@ -2,7 +2,7 @@
 frappe.ui.form.on("Request Form", {
     onload: function(frm) {
       if(frm.doc.workflow_state == "Awaiting Researcher"){
-        if(!is_research()){
+        if(!is_research(frm)){
         cur_frm.fields.forEach(function(l){
         cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
         });
@@ -100,7 +100,7 @@ function show_required_section(frm) {
     });
 }
 
-function is_research(){
+function is_research(frm){
    frm.doc.researcher.forEach(function(d) {
       if(d.email == frappe.session.user) {
         return true;
