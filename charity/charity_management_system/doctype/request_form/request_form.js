@@ -1,5 +1,14 @@
 
 frappe.ui.form.on("Request Form", {
+    onload: function(frm) {
+      if(frm.doc.workflow_state == "Awaiting Researchers"){
+        if(!is_research()){
+        cur_frm.fields.forEach(function(l){
+        cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+        });
+        }
+      }
+    },
     refresh: function(frm) {
       if(frm.doc.__islocal){
   			var today_date = frappe.datetime.nowdate();
@@ -88,6 +97,14 @@ function show_required_section(frm) {
             frm.toggle_display("medical_condition", true);
         }
 
+    });
+}
+
+function is_research(){
+   frm.doc.researcher.forEach(function(d) {
+      if(d.email == frappe.session.user) {
+        return true;
+      }
     });
 }
 
