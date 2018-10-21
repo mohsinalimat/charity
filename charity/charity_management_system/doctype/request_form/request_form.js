@@ -10,11 +10,6 @@ frappe.ui.form.on("Request Form", {
         }
       }
     },
-    validate:function(frm) {
-      if (frm.doc.workflow_state == "Awaiting Researcher" && is_research(frm)){
-        frappe.throw("لست المخول بقبول او رفض هذه المعاملة");
-      }
-    },
     refresh: function(frm) {
       if(frm.doc.__islocal){
   			var today_date = frappe.datetime.nowdate();
