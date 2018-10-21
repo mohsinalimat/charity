@@ -3,6 +3,7 @@ frappe.ui.form.on("Request Form", {
     onload: function(frm) {
       if(frm.doc.workflow_state == "Awaiting Researcher"){
         if(!is_research(frm)){
+           $(".actions-btn-group").remove();
         cur_frm.fields.forEach(function(l){
         cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
         });
