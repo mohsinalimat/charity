@@ -101,11 +101,13 @@ function show_required_section(frm) {
 }
 
 function is_research(frm){
+  var flag = 0;
    frm.doc.researcher.forEach(function(d) {
       if(d.email == frappe.session.user) {
-        return true;
+        flag = true;
       }
     });
+    return flag;
 }
 
 frappe.ui.form.on("Financial table", {
