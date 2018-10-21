@@ -1,7 +1,7 @@
 
 frappe.ui.form.on("Request Form", {
     onload: function(frm) {
-      if(frm.doc.workflow_state == "Awaiting Researchers"){
+      if(frm.doc.workflow_state == "Awaiting Researcher"){
         if(!is_research()){
         cur_frm.fields.forEach(function(l){
         cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
@@ -178,7 +178,7 @@ frappe.ui.form.on("Coupon", {
 	},
 	onload:function(frm, cdt, cdn) {
 		if(frm.doc.delivered){
-			cur_frm.fields.forEach(function(l){ 
+			cur_frm.fields.forEach(function(l){
 			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
 			 });
 		}
