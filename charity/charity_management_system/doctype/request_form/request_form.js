@@ -10,7 +10,7 @@ frappe.ui.form.on("Request Form", {
       }
     },
     validate:function(frm) {
-      if (frm.doc.workflow_state == "Awaiting Researcher" && !is_research(frm)){
+      if (frm.doc.workflow_state == "Awaiting Researcher" && is_research(frm)){
         frappe.throw("لست المخول بقبول او رفض هذه المعاملة");
       }
     },
