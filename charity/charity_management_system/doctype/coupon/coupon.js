@@ -12,9 +12,12 @@ frappe.ui.form.on('Coupon', {
 		});
 		cur_frm.set_query("item", function() {
         return {
-            "filters": {
-                package_type: frm.doc.package_type
-            }
+            // "filters": {
+            //     package_type: frm.doc.package_type
+			// }
+			filters: [
+			 			['package_type', '=', frm.doc.package_type]
+			 		]
         };
     });
 	},
@@ -38,5 +41,12 @@ frappe.ui.form.on('Coupon', {
 	quantity: function(frm) {
 		frm.set_value("total",frm.doc.rate * frm.doc.quantity);
 		frm.refresh_field("total");
+	},
+	onload:function(frm) {
+		if(frm.doc.delivered){
+			cur_frm.fields.forEach(function(l){ 
+			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+			 });
+		}
 	}
 });

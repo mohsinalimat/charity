@@ -175,6 +175,13 @@ frappe.ui.form.on("Coupon", {
     var row = locals[cdt][cdn];
 		frappe.model.set_value(row.doctype, row.name,"total",row.rate * row.quantity);
 		frm.refresh_field("total");
+	},
+	onload:function(frm, cdt, cdn) {
+		if(frm.doc.delivered){
+			cur_frm.fields.forEach(function(l){ 
+			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+			 });
+		}
 	}
 });
 
