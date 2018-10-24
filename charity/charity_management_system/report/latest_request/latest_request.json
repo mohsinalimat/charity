@@ -6,7 +6,7 @@
  "doctype": "Report", 
  "idx": 0, 
  "is_standard": "Yes", 
- "modified": "2018-10-22 17:53:45.158551", 
+ "modified": "2018-10-24 15:22:37.251828", 
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "Latest Request", 
@@ -19,6 +19,18 @@
  "roles": [
   {
    "role": "System Manager"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Request Read-Only"
+  }, 
+  {
+   "role": "Request Modifier"
   }
  ]
 }

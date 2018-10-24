@@ -1,7 +1,7 @@
 
 frappe.ui.form.on("Request Form", {
     onload: function(frm) {
-      if(frm.doc.workflow_state == "Awaiting Researcher"){
+      if(frm.doc.workflow_state == "Awaiting Researcher" || frm.doc.workflow_state == "Approved By Researcher"){
         if(!is_research(frm)){
            $(".actions-btn-group").remove();
         cur_frm.fields.forEach(function(l){

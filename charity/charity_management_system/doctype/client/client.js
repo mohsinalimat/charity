@@ -207,6 +207,15 @@ frappe.ui.form.on('Family Members', {
 			}
 		});
 	},
+	orphan_amount: function(frm, cdt, cdn) {
+		var orphan = 0;
+		frm.doc.family_tree.forEach(function(d) {
+			orphan += d.orphan_amount;
+		});
+		
+		frm.set_value("amount_total", orphan);
+		frm.refresh_field("amount_total");
+	},
 	family_tree_remove:function(frm){
 		// frm.trigger("calculate_members");
 		var total = 1;
@@ -233,6 +242,14 @@ frappe.ui.form.on('Family Members', {
 				}
 			}
 		});
+		var orphan = 0;
+			frm.doc.family_tree.forEach(function(d) {
+				orphan += d.orphan_amount;
+			});
+			debugger;
+	
+			frm.set_value("amount_total", orphan);
+			frm.refresh_field("amount_total");
 	},
 	gender1:function (frm, cdt, cdn){
 		var row = locals[cdt][cdn];
@@ -257,26 +274,26 @@ frappe.ui.form.on('Family Members', {
 				}
 			}
 			});
-		},
-		orphan_amount: function(frm, cdt, cdn) {
-			var orphan = 0;
-			frm.doc.family_tree.forEach(function(d) {
-				orphan += d.orphan_amount;
-			});
-			
-			frm.set_value("amount_total", orphan);
-			frm.refresh_field("amount_total");
-		},
-		family_tree_remove:function(frm){
-			var orphan = 0;
-			frm.doc.family_tree.forEach(function(d) {
-				orphan += d.orphan_amount;
-			});
-			debugger;
-	
-			frm.set_value("amount_total", orphan);
-			frm.refresh_field("amount_total");
 		}
+		// orphan_amount: function(frm, cdt, cdn) {
+		// 	var orphan = 0;
+		// 	frm.doc.family_tree.forEach(function(d) {
+		// 		orphan += d.orphan_amount;
+		// 	});
+			
+		// 	frm.set_value("amount_total", orphan);
+		// 	frm.refresh_field("amount_total");
+		// }
+		// family_tree_remove:function(frm){
+		// 	var orphan = 0;
+		// 	frm.doc.family_tree.forEach(function(d) {
+		// 		orphan += d.orphan_amount;
+		// 	});
+		// 	debugger;
+	
+		// 	frm.set_value("amount_total", orphan);
+		// 	frm.refresh_field("amount_total");
+		// }
 });
 
 

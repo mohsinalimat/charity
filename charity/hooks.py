@@ -11,9 +11,9 @@ app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
-fixtures = [
-    "Workflow", "Workflow State", "Role", "Naming Series"
-]
+# fixtures = [
+#     "Workflow", "Workflow State", "Role", "Naming Series"
+# ]
 
 # Includes in <head>"Workflow Action", 
 # ------------------

@@ -160,5 +160,14 @@
   "name": "Initiate", 
   "style": "", 
   "workflow_state_name": "Initiate"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow State", 
+  "icon": "", 
+  "modified": "2018-10-24 15:12:29.666037", 
+  "name": "Case Study", 
+  "style": "", 
+  "workflow_state_name": "Case Study"
  }
 ]
