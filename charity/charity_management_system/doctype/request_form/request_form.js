@@ -4,8 +4,8 @@ frappe.ui.form.on("Request Form", {
       if(frm.doc.workflow_state == "Awaiting Researcher" || frm.doc.workflow_state == "Approved By Researcher"){
         if(!is_research(frm)){
            $(".actions-btn-group").remove();
-        cur_frm.fields.forEach(function(l){
-        cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
+        frm.fields.forEach(function(l){
+        frm.set_df_property(l.df.fieldname, "read_only", 1);
         });
         }
       }
@@ -18,12 +18,12 @@ frappe.ui.form.on("Request Form", {
   			frm.refresh_field("h_date_of_request");
   			frm.refresh_field("h_year");
   		}
-        frm.add_custom_button(__("Coupon"), function() {
-            frappe.model.open_mapped_doc({
-                method: "charity.charity_management_system.tools.make_coupon",
-                frm: cur_frm
-            });
-        }, __("Make"));
+        // frm.add_custom_button(__("Coupon"), function() {
+        //     frappe.model.open_mapped_doc({
+        //         method: "charity.charity_management_system.tools.make_coupon",
+        //         frm: cur_frm
+        //     });
+        // }, __("Make"));
 
         show_required_section(frm);
     },
@@ -108,6 +108,12 @@ function is_research(frm){
         flag = true;
       }
     });
+
+    frm.doc.research_committee_table.forEach(function(d) {
+        if(d.email == frappe.session.user) {
+          flag = true;
+        }
+      });
     return flag;
 }
 
