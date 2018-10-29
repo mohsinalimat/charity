@@ -102,20 +102,20 @@ function show_required_section(frm) {
 }
 
 function is_research(frm){
-  var flag =  false;
-   frm.doc.researcher.forEach(function(d) {
-      if(d.email == frappe.session.user) {
-        flag = true;
-      }
-    });
-
-    frm.doc.research_committee_table.forEach(function(d) {
-        if(d.email == frappe.session.user) {
+    var flag =  false;
+     frm.doc.researcher.forEach(function(d) {
+        if(d.email == frappe.session.user || frappe.user.has_role('System Manager')) {
           flag = true;
         }
       });
-    return flag;
-}
+  
+      frm.doc.research_committee_table.forEach(function(d) {
+          if(d.email == frappe.session.user || frappe.user.has_role('System Manager')) {
+            flag = true;
+          }
+        });
+      return flag;
+  }
 
 frappe.ui.form.on("Financial table", {
     amount: function(frm, cdt, cdn) {
