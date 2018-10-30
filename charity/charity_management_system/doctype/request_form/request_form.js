@@ -21,6 +21,19 @@ frappe.ui.form.on("Request Form", {
       frm.refresh_field("h_date_of_request");
       frm.refresh_field("h_year");
     }
+
+    if (frm.doc.research_sec) {
+      let to_hide = ["request_number", "file_number", "date_of_request", "type_of_the_requested_aid",
+        "date_of_marriage_contract", "current_available_amount", "terms_of_marriage", "amount_of_dowry",
+        "requested_amount", "requirements", "broken_requirements", "school", "financial", "f_total",
+        "medical_table", "m_total"
+      ];
+
+      to_hide.forEach(function(l) {
+        frm.set_df_property(l, "read_only", 1);
+      });
+
+    }
     // frm.add_custom_button(__("Coupon"), function() {
     //     frappe.model.open_mapped_doc({
     //         method: "charity.charity_management_system.tools.make_coupon",
