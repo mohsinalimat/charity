@@ -104,7 +104,7 @@ function show_required_section(frm) {
 function is_research(frm){
     var flag =  false;
      frm.doc.researcher.forEach(function(d) {
-        if(d.email == frappe.session.user || frappe.user.has_role('System Manager')) {
+        if(d.email == frappe.session.user || frappe.user.has_role('System Manager') || frappe.user.has_role('Client Relations')) {
           flag = true;
         }
       });
