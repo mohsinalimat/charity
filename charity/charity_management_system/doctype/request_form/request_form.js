@@ -22,7 +22,7 @@ frappe.ui.form.on("Request Form", {
       frm.refresh_field("h_year");
     }
 
-    if (frm.doc.research_sec) {
+    if (frm.doc.read_only_sec) {
       let to_hide = ["request_number", "file_number", "date_of_request", "type_of_the_requested_aid",
         "date_of_marriage_contract", "current_available_amount", "terms_of_marriage", "amount_of_dowry",
         "requested_amount", "requirements", "broken_requirements", "school", "financial", "f_total",
@@ -31,6 +31,17 @@ frappe.ui.form.on("Request Form", {
 
       to_hide.forEach(function(l) {
         frm.set_df_property(l, "read_only", 1);
+      });
+
+    } else if (!frm.doc.read_only_sec) {
+      let to_hide = ["request_number", "file_number", "date_of_request", "type_of_the_requested_aid",
+        "date_of_marriage_contract", "current_available_amount", "terms_of_marriage", "amount_of_dowry",
+        "requested_amount", "requirements", "broken_requirements", "school", "financial", "f_total",
+        "medical_table", "m_total"
+      ];
+
+      to_hide.forEach(function(l) {
+        frm.set_df_property(l, "read_only", 0);
       });
 
     }

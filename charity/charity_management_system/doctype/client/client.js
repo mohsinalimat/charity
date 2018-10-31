@@ -213,8 +213,11 @@ frappe.ui.form.on('Family Members', {
 			orphan += d.orphan_amount;
 		});
 		
-		frm.set_value("amount_total", orphan);
-		frm.refresh_field("amount_total");
+		frm.set_value("orphan_total", orphan);
+		frm.refresh_field("orphan_total");
+
+		frm.set_value("amount_total", orphan + frm.doc.help_amount);
+        frm.refresh_field("amount_total");
 	},
 	family_tree_remove:function(frm){
 		// frm.trigger("calculate_members");
@@ -248,7 +251,10 @@ frappe.ui.form.on('Family Members', {
 			});
 			debugger;
 	
-			frm.set_value("amount_total", orphan);
+			frm.set_value("orphan_total", orphan);
+			frm.refresh_field("orphan_total");
+
+			frm.set_value("amount_total", orphan + frm.doc.help_amount);
 			frm.refresh_field("amount_total");
 	},
 	gender1:function (frm, cdt, cdn){
@@ -281,8 +287,8 @@ frappe.ui.form.on('Family Members', {
 		// 		orphan += d.orphan_amount;
 		// 	});
 			
-		// 	frm.set_value("amount_total", orphan);
-		// 	frm.refresh_field("amount_total");
+		// 	frm.set_value("orphan_total", orphan);
+		// 	frm.refresh_field("orphan_total");
 		// }
 		// family_tree_remove:function(frm){
 		// 	var orphan = 0;
@@ -291,8 +297,8 @@ frappe.ui.form.on('Family Members', {
 		// 	});
 		// 	debugger;
 	
-		// 	frm.set_value("amount_total", orphan);
-		// 	frm.refresh_field("amount_total");
+		// 	frm.set_value("orphan_total", orphan);
+		// 	frm.refresh_field("orphan_total");
 		// }
 });
 

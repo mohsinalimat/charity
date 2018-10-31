@@ -11,11 +11,11 @@ app_color = "grey"
 app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
-# fixtures = [
-#     "Workflow", "Workflow State", "Naming Series"
-# ]
+fixtures = [
+    "Naming Series"
+]
 
-# Includes in <head>"Workflow Action", 
+# Includes in <head>"Workflow Action", "Workflow", "Workflow State", 
 # ------------------
 
 # include js, css files in header of desk.html
