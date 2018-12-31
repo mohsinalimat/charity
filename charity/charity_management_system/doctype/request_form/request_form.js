@@ -230,6 +230,7 @@ frappe.ui.form.on("Cheque Specification", {
     frappe.model.set_value(row.doctype, row.name, "h_date_of_issue", getHijriDate(today_date));
     frappe.model.set_value(row.doctype, row.name, "name_of_client", frm.doc.full_name);
     frappe.model.set_value(row.doctype, row.name, 'mobile_number', frm.doc.mobile_number);
+    frappe.model.set_value(row.doctype, row.name, 'city', frm.doc.city);
   }
 });
 
