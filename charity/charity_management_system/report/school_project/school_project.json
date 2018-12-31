@@ -7,7 +7,7 @@
  "idx": 0, 
  "is_standard": "Yes", 
  "json": "{\"fields\": [[\"name\", \"Client\"], [\"docstatus\", \"Client\"], [\"full_name\", \"Client\"], [\"image\", \"Client\"], [\"city\", \"Client\"], [\"national_id\", \"Client\"]], \"add_totals_row\": 0, \"order_by\": \"`tabClient`.`modified` desc\", \"add_total_row\": 0, \"filters\": [[\"Family Members\", \"age\", \">=\", 4, false], [\"Family Members\", \"certificate1\", \"=\", 1, false]]}", 
- "modified": "2018-12-31 14:21:08.823183", 
+ "modified": "2018-12-31 18:18:31.433146", 
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "School Project", 
@@ -19,6 +19,18 @@
  "roles": [
   {
    "role": "System Manager"
+  }, 
+  {
+   "role": "Reception"
+  }, 
+  {
+   "role": "Researcher"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Client Relations"
   }
  ]
 }

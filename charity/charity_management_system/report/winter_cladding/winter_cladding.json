@@ -7,7 +7,7 @@
  "idx": 0, 
  "is_standard": "Yes", 
  "json": "{\"add_total_row\": 0, \"sort_by\": \"Client.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"name\", \"Client\"], [\"full_name\", \"Client\"], [\"national_id\", \"Client\"], [\"big_blankets\", \"Client\"], [\"small_blankets\", \"Client\"], [\"heaters\", \"Client\"], [\"jackets\", \"Client\"], [\"years_from_receiving\", \"Client\"], [\"years_from_receiving_heaters\", \"Client\"]]}", 
- "modified": "2018-12-31 14:26:25.822260", 
+ "modified": "2018-12-31 18:19:08.112614", 
  "modified_by": "Administrator", 
  "module": "charity management system", 
  "name": "Winter Cladding", 
@@ -20,6 +20,18 @@
  "roles": [
   {
    "role": "System Manager"
+  }, 
+  {
+   "role": "Reception"
+  }, 
+  {
+   "role": "Researcher"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Client Relations"
   }
  ]
 }
